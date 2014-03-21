@@ -37,7 +37,7 @@
         "coordinates": [-68.922118, 45.904452 ]
       },
       "properties": {
-        "description":"<div><div style='float:left;'><span style='font-weight:bold;'>Milinaket Event</span><br> Date: May 21, 2014<br>Time: 7:00pm<br>Location: Blue Ox Saloon</div><div style='float:right;'><a class='viewClimbLink' target='_blank' href='http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company'>Join Sam</a></div><div style='clear:both;'></div> </div>",
+        "description":"<div><div style='float:left;'><span style='font-weight:bold;'>Millinocket, ME</span><br> Date: May 21, 2014<br>Time: 7:00 PM<br>Location: Blue Ox Saloon</div><div style='float:right;'><a class='viewClimbLink' target='_blank' href='http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company'>Join Sam</a></div><div style='clear:both;'></div> </div>",
         "icon": {
             "iconUrl": "http://www2.michaeljfox.org/images/content/pagebuilder/party_icon.png",
             "iconSize": [9, 12], // size of the icon
