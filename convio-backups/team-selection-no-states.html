@@ -1,0 +1,40 @@
+<!-- https://secure3.convio.net/mjff/admin/TREdit/1412373790 tour de fox - customize pages - configure custom page - team selection -->
+
+<style type="text/css"><!--
+#team_find_registration_type_container{
+	text-align: left;
+	font-size: 1em;
+	margin: auto;
+	border: 1px solid #ededed;
+	border-radius: 10px;
+	padding: 20px;
+}
+div.responsive a:link {
+color: #fff;
+margin: 0 7px;
+background: #f77f00;
+padding: 8px 20px;
+border-radius: 5px;
+-webkit-font-smoothing: antialiased;
+font-style: strong;
+box-shadow: 1px 1px 1px grey;
+}
+.team-find-alternate-options-seperator{
+	display: none;
+}
+a:hover {
+text-decoration: none;
+}
+--></style>
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function(){
+
+if(window.location.href.indexOf("new") > -1) 
+{jQuery("#title_container").text("Create a Team");}
+else{jQuery("#title_container").text("Join a Team");};
+
+jQuery("#new_team_container").text("Create a new Team");
+jQuery("#individual_container").text("Join as an Individual");
+
+});
+// ]]></script>
