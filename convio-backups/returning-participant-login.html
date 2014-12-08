@@ -1,0 +1,147 @@
+<!-- tdf returning participant login https://secure3.convio.net/mjff/admin/TREdit?app_id=26&page_type=fr_user_type&tr=edit_event_page&action=edit_custom_page_content&fr_id=1440 -->
+<style type="text/css"><!--
+.questions{
+background-color: #ededed;
+padding: 15px 0px;
+text-align: center;
+color: #f77f00;
+}
+
+#user_type_section_body{
+  text-align:left;
+}
+
+#user_type_new_participant_registration_container{
+width: 0px !important;
+padding: 0px !important;
+}
+#user_type_login_container{
+width: inherit !important;
+border-top-color: #dad7d0 !important;
+border-bottom-color: #dad7d0 !important;
+padding: 30px !important;
+}
+#required_indicator_legend_container{
+display: none !important;
+}
+#ut_title_container{
+display:none
+}
+#user_type_header_container{
+display:none !important;
+}
+
+.mjffBtn2 {
+  font-family: 'BebasNeueRegular', Verdana, Arial, Helvetica, sans-serif;
+display: inline-block !important;
+padding: 9px 15px;
+margin-top: 15px !important;
+font-size: 26px;
+line-height: 20px;
+color: #fff !important;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-color: #f77f00 !important;
+border: 1px solid #cccccc !important;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+border-bottom-color: #b3b3b3;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+-webkit-font-smoothing: antialiased;
+text-transform: uppercase;
+}
+
+a.mjffBtn2:hover{
+  background-color: #f19b40 !important;
+  text-decoration: none !important;
+}
+ul li{
+font-size: 14px !important;
+background: url(https://www.michaeljfox.org/images/bullet.gif) top left no-repeat;
+background-position: left 1px;
+}
+p{
+font-size: 16px;
+}
+#tourSignIn{
+display: none;
+padding: 50px;
+}
+--></style>
+<div id="tourSignIn">
+<h1>Register</h1>
+<p>
+    Whether you plan to join Sam for an official climb, bike ride or celebratory event, OR you&rsquo;re hosting a virtual event in your local community as a Team Fox member, register below to officially join the Tour! After registering, members will gain access to:
+  </p>
+<ul>
+<li>
+      A personalized fundraising page and online participant center
+    </li>
+<li>
+      A 20+ fundraising handbook and support from the Team Fox staff
+    </li>
+<li>
+      A Tour de Fox banner for your event and opportunities to win official Tour merchandise
+    </li>
+</ul>
+<div style="width: 275px; float: left; text-align: center;">
+    <img style="padding: 9px 70px; width: 60px;" src="../images/content/pagebuilder/man.png" alt="" />
+<p style="font-family: 'GibsonRegular', Verdana, Arial, Helvetica, sans-serif; font-size: 23px;">
+      Register As an Individual
+      <br />
+      <a class="mjffBtn2" href="TRR/Athletic/General/1875380559?pg=ptype&amp;fr_id=1440">Sign Up</a>
+    </p>
+</div>
+<div style="width: 275px; float: left; margin-bottom: 30px; text-align: center;">
+    <img style="padding: 9px 70px; width: 110px;" src="../images/content/pagebuilder/men.png" border="0" alt="men.png" width="110" />
+<p style="font-family: 'GibsonRegular', Verdana, Arial, Helvetica, sans-serif; font-size: 23px;">
+      Register with a Team
+      <br />
+      <a class="mjffBtn2 mjffBtn2-success" href="TRR/Athletic/General/1008452504?pg=tfind&amp;fr_id=1440&amp;skip_login_page=true">Join A Team</a>
+      <a class="mjffBtn2" href="TRR/Athletic/General/1875380559?pg=tfind&amp;fr_id=1440&amp;fr_tm_opt=new&amp;skip_login_page=true">Create New Team</a>
+    </p>
+</div>
+<div style="width: 275px; float: left; text-align: center;">
+    <img style="padding: 9px 70px; width: 60px; height: 100%;" src="../images/content/pagebuilder/search.png" border="0" alt="search.png" width="32" height="32" />
+<p style="font-family: 'GibsonRegular', Verdana, Arial, Helvetica, sans-serif; font-size: 23px;">
+      Find or Donate to a Participant
+      <br />
+      <a class="mjffBtn2" href="TR/Athletic/General?sid=1070&amp;type=fr_informational&amp;pg=pfind&amp;fr_id=1440">SEARCH</a>
+    </p>
+</div>
+</div>
+<div class="questions">
+  Questions? Email
+  <a href="mailto:tourdefox@michaeljfox.org">tourdefox@michaeljfox.org</a>
+</div>
+<script type="text/javascript">// <![CDATA[
+(function($) {
+    $.QueryString = (function(a) {
+        if (a == "") return {};
+        var b = {};
+        for (var i = 0; i < a.length; ++i)
+        {
+            var p=a[i].split('=');
+            if (p.length != 2) continue;
+            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+    })(window.location.search.substr(1).split('&'))
+})(jQuery);
+
+jQuery(document).ready(function(){
+jQuery('#user_type_email_login_info_link').replaceWith('<p>Forgot your password? Email <a href="mailto:tourdefox@michaeljfox.org">tourdefox@michaeljfox.org</a></p>');
+
+var hash = $.QueryString["signin"];
+  if(hash == "true"){
+    $("#fr_returning_user_container").text("Log in");
+    $("#user_type_new_participant_registration_container").hide();
+  } else{
+      jQuery('#user_type_new_participant_registration_container').empty().after(jQuery('#tourSignIn').children());
+}
+
+jQuery('#F2fRegPartType').after('<div class="questions">Questions? Email <a href="mailto:tourdefox@michaeljfox.org">tourdefox@michaeljfox.org</a></div>');
+});
+// ]]></script>
