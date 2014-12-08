@@ -4,7 +4,11 @@ jQuery.noConflict();
 (function($) {
 	$(function() {
 		$('#frStatus3').hide();
+		$('#frStatus5').hide();
 		$(".image").insertBefore(".goal");
+		$(".image:first").remove();
+		$(".TRTeamList").remove();
+		$("#top_participants_title_container").remove();
 	});
 })(jQuery);
 // ]]></script>
