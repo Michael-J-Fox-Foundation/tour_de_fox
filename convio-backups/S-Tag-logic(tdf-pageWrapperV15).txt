@@ -1,0 +1,20 @@
+[[?x[[S4]]y[[S334:pg]]z::x26yentryz::[[S51:reus_megaNav_entryadd]]::]]
+[[?[[?x[[S4]]y[[S334:pg]]z::x26ypersonalz::TRUE::FALSE]][[?x[[S4]]y[[S334:pg]]
+z::x26yteamz::TRUE::FALSE]]::TRUE::
+[[S51:tour_de_fox_nav]]
+::
+[[S51:tour_de_fox_nav]]
+]]
+<p>
+S4:
+<convio:session name="4"></convio:session>
+</p>
+<p>
+x
+<convio:session name="4"></convio:session>
+y
+<convio:session name="334" param="pg"></convio:session>
+z::x26ypersonalz
+<br />
+[[?x[[S4]]y[[S334:pg]]z::x26ypersonalz:: Matching conditional :: No Match ]]
+</p>
