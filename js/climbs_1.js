@@ -883,7 +883,7 @@
         "coordinates": [-121.759109, 46.853854 ]
       },
       "properties": {
-        "description":"<div><div style='float:left;'><span style='font-weight:bold;'>Mt. Rainier (WA)</span><br>Elevation: 14,410ft<br>Date: August 20-21, 2014<br></div><div style='float:right;'><a class='viewClimbLink' target='_blank' href='http://www2.michaeljfox.org/site/TR?company_id=1066&fr_id=1440&pg=company'>Join Sam</a></div><div style='clear:both;'></div><img src='http://www2.michaeljfox.org/images/content/pagebuilder/WApic.jpg' width='240' /> </div>",
+        "description":"<div><div style='float:left;'><span style='font-weight:bold;'>Mt. Rainier (WA)</span><br>Elevation: 14,410ft<br>Date: August 20-21, 2015<br></div><div style='float:right;'><a class='viewClimbLink' target='_blank' href='http://www2.michaeljfox.org/site/TR?company_id=1066&fr_id=1440&pg=company'>Join Sam</a></div><div style='clear:both;'></div><img src='http://www2.michaeljfox.org/images/content/pagebuilder/WApic.jpg' width='240' /> </div>",
         "icon": {
             "iconUrl": "http://secure3.convio.net/mjff/images/content/pagebuilder/MapMarker_Mountain4.png",
             "iconSize": [15, 15], // size of the icon
