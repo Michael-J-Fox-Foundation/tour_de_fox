@@ -505,7 +505,7 @@
         "coordinates": [-90.240339, 42.504235 ]
       },
       "properties": {
-        "description":"<div><div style='float:left;'><span style='font-weight:bold;'>Charles Mound (IL)</span><br>Elevation: 1,235ft<br>Date: July 4, 2015<br></div><div style='float:right;'><a class='viewClimbLink' target='_blank' href='http://www2.michaeljfox.org/site/TR?company_id=1045&fr_id=1440&pg=company'>Join Sam</a></div><div style='clear:both;'></div><img src='http://www2.michaeljfox.org/images/content/pagebuilder/MOpic.jpg' width='240' /> </div>",
+        "description":"<div><div style='float:left;'><span style='font-weight:bold;'>Charles Mound (IL)</span><br>Elevation: 1,235ft<br>Date: July 4, 2015<br></div><div style='float:right;'><a class='viewClimbLink' target='_blank' href='http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company'>Join Sam</a></div><div style='clear:both;'></div><img src='http://www2.michaeljfox.org/images/content/pagebuilder/MOpic.jpg' width='240' /> </div>",
         "icon": {
             "iconUrl": "http://secure3.convio.net/mjff/images/content/pagebuilder/MapMarker_Mountain4.png",
             "iconSize": [25, 25], // size of the icon
