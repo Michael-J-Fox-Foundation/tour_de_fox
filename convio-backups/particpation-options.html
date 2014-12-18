@@ -1,0 +1,102 @@
+<style type="text/css"><!--
+#fr_anonymous_gift,
+#fr_show_public_gift{
+vertical-align: middle;
+margin-left: 20px;
+}
+
+.input-container{
+margin-bottom: 10px;
+}
+
+#part_type_individual_company_selection_container,
+#part_type_additional_gift_container,
+#part_type_fundraising_goal_container{
+margin-bottom: 50px;
+}
+#fund_goal_container{
+font-size: 1.1em;
+}
+
+div#part_type_individual_company_selection_container {
+margin-top: 10px;
+}
+--></style>
+<p id="tdfxClimb" style="color: red; margin-top: 20px; font-size: 18px;"><span style="color: #ff0000;">The following Tour de Fox Xtreme events are available for advanced climbers and cyclists only.&nbsp;</span></p>
+<ul class="tdfx-events">
+<li>Mt. Marcy Climb (NY)</li>
+<li>Gannett Peak Climb (WY)</li>
+<li>Granite Peak Climb (MT)</li>
+<li>Mt. Whitney Climb (CA)</li>
+<li>Mt. Hood Climb (OR)</li>
+<li>Mt. Rainier Climb (WA)</li>
+<li>Grand Teton and Yellowstone National Parks Ride (WY, MT)</li>
+<li>Independence Pass Ride (CO)</li>
+<li>Death Valley Ride (CA)</li>
+<li>Grand Canyon Run (AZ)</li>
+</ul>
+<p id="tdfxClimb" style="color: red; margin-top: 20px; font-size: 18px;"><span style="color: #ff0000;">If you would like to participate in any of these events, please&nbsp;<a href="https://www.michaeljfox.org/form.php?id=117">apply here</a>.</span></p>
+<ul class="tdfx-events">
+</ul>
+<!--
+<p id="tdfxClimb" style="color:red; margin-top:20px; font-size: 18px;" _mce_style="color: red; margin-top: 20px; font-size: 18px;">The mountain peak in the state you selected is for advanced climbers only. Please fill out <a href="#" _mce_href="#">this form</a> to apply for a spot on the roster.</p>
+<div id="tdfxNonClimb">
+<p style="color:red; margin-top:20px; font-size: 18px;" _mce_style="color: red; margin-top: 20px; font-size: 18px;">The mountain peak in the state you selected is for advanced climbers only. if you are planning to attend a NON-climbing event in this state, please continute to the next step. However, if you are planning on climbing the summit in this state, please fill out <a href="#" _mce_href="#">this form</a> to apply for a spot on the roster.
+	</p>
+<p>
+		<input type="checkbox" name="event" id="event">
+		<label for="event">I am NOT participating in the climb in my state, but rather will participant in another event.</label>
+	</p>
+</div>
+-->
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function(){
+	jQuery("#part_type_selection_container").hide();
+	jQuery("#part_type_company_selection").prop( "checked", true );
+	jQuery("#part_type_individual_company_input_container").removeClass("hidden");
+	jQuery("#part_type_individual_company_selection_container .input-container").html("<div>Choose the primary state that you would like to fundraise for.<br /><span style='font-style:italic; font-size:0.8em;'>You can still participate across multiple states</span></div>");
+	jQuery("#addl_gift_container").hide();
+	jQuery("#pt_instruction_container").hide();
+	jQuery("#fr_part_co_list :first").text("Select State");
+	jQuery("#fr_part_co_list optgroup[label='Local Companies']").attr("label","States");
+    jQuery("#part_type_individual_company_selection_container").addClass('field-required');
+    jQuery('#tdfxClimb').insertAfter(jQuery('#part_type_instruction_sub_header'));
+    jQuery('.tdfx-events').insertAfter(jQuery('#tdfxClimb'));
+    // jQuery('#tdfxClimb').hide();
+    // jQuery('#tdfxNonClimb').hide();
+});
+jQuery('select[name=fr_part_co_list]').change(function () {
+    if (jQuery(this).val() == '5') {
+        jQuery('#browserother').show();
+    } else {
+        jQuery('#browserother').hide();
+    }
+});
+
+// jQuery('select[name=fr_part_co_list]').change(function () {	
+// 	var tdfxClimb = new Array("New York", "Wyoming", "Montana", "Washington");
+// 	var tdfxNonClimb = new Array("Oregon", "Colorado", "Arizona", "California");
+// 	if (jQuery.inArray(jQuery('select[name=fr_part_co_list] option:selected').text(),tdfxClimb) !== -1){
+// 		jQuery('#tdfxClimb').insertAfter(jQuery('#part_type_individual_company_selection_container'));
+// 		jQuery('#tdfxClimb').show();
+// 		jQuery('#tdfxNonClimb').hide();
+// 		jQuery('#next_step').hide();
+// 	} else if (jQuery.inArray(jQuery('select[name=fr_part_co_list] option:selected').text(),tdfxNonClimb) !== -1){
+// 		jQuery('#tdfxNonClimb').insertAfter(jQuery('#part_type_individual_company_selection_container'));
+// 		jQuery('#tdfxNonClimb').show();
+// 		jQuery('#tdfxClimb').hide();
+// 		jQuery('#next_step').hide();
+// 		jQuery('#event').change(function (){
+// 			if (document.getElementById("event").checked == true){
+// 				jQuery('#next_step').show();
+// 			} else {
+// 				jQuery('#next_step').hide();
+// 			}
+// 		});
+// 	} else {
+// 		jQuery('#tdfxClimb').hide();
+// 		jQuery('#tdfxNonClimb').hide();
+// 		jQuery('#next_step').show();
+// 	}
+// });
+// ]]></script>
