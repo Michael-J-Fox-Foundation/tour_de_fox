@@ -23,7 +23,14 @@ margin-top: 10px;
 }
 --></style>
 <p id="tdfxClimb" style="color: red; margin-top: 20px; font-size: 18px;"><span style="color: #ff0000;">The following Tour de Fox Xtreme events are available for advanced climbers and cyclists only.&nbsp;</span></p>
-<ul class="tdfx-events">
+<div class="tdfx-events">
+	Mt. Marcy Climb (NY) &mdash; Gannett Peak Climb (WY) &mdash; Granite Peak Climb (MT) &mdash; Mt. Whitney Climb (CA) &mdash; Mt. Hood Climb (OR) &mdash; Mt. Rainier Climb (WA)
+	<br/><br/>
+	Grand Teton and Yellowstone National Parks Ride (WY, MT) &mdash; Independence Pass Ride (CO) &mdash; Death Valley Ride (CA)
+	<br /><br/>
+	Grand Canyon Run (AZ)
+</div>
+<!-- <ul class="tdfx-events">
 <li>Mt. Marcy Climb (NY)</li>
 <li>Gannett Peak Climb (WY)</li>
 <li>Granite Peak Climb (MT)</li>
@@ -34,21 +41,9 @@ margin-top: 10px;
 <li>Independence Pass Ride (CO)</li>
 <li>Death Valley Ride (CA)</li>
 <li>Grand Canyon Run (AZ)</li>
-</ul>
-<p id="tdfxClimb" style="color: red; margin-top: 20px; font-size: 18px;"><span style="color: #ff0000;">If you would like to participate in any of these events, please&nbsp;<a href="https://www.michaeljfox.org/form.php?id=117">apply here</a>.</span></p>
-<ul class="tdfx-events">
-</ul>
-<!--
-<p id="tdfxClimb" style="color:red; margin-top:20px; font-size: 18px;" _mce_style="color: red; margin-top: 20px; font-size: 18px;">The mountain peak in the state you selected is for advanced climbers only. Please fill out <a href="#" _mce_href="#">this form</a> to apply for a spot on the roster.</p>
-<div id="tdfxNonClimb">
-<p style="color:red; margin-top:20px; font-size: 18px;" _mce_style="color: red; margin-top: 20px; font-size: 18px;">The mountain peak in the state you selected is for advanced climbers only. if you are planning to attend a NON-climbing event in this state, please continute to the next step. However, if you are planning on climbing the summit in this state, please fill out <a href="#" _mce_href="#">this form</a> to apply for a spot on the roster.
-	</p>
-<p>
-		<input type="checkbox" name="event" id="event">
-		<label for="event">I am NOT participating in the climb in my state, but rather will participant in another event.</label>
-	</p>
-</div>
--->
+</ul> -->
+<p id="tdfxClimb2" style="color: red; margin-top: 20px; font-size: 18px;"><span style="color: #ff0000;">If you would like to participate in any of these events, please&nbsp;<a href="https://www.michaeljfox.org/form.php?id=117">apply here</a>.</span></p>
+
 <script type="text/javascript">// <![CDATA[
 jQuery(document).ready(function(){
 	jQuery("#part_type_selection_container").hide();
@@ -59,11 +54,10 @@ jQuery(document).ready(function(){
 	jQuery("#pt_instruction_container").hide();
 	jQuery("#fr_part_co_list :first").text("Select State");
 	jQuery("#fr_part_co_list optgroup[label='Local Companies']").attr("label","States");
-    jQuery("#part_type_individual_company_selection_container").addClass('field-required');
-    jQuery('#tdfxClimb').insertAfter(jQuery('#part_type_instruction_sub_header'));
-    jQuery('.tdfx-events').insertAfter(jQuery('#tdfxClimb'));
-    // jQuery('#tdfxClimb').hide();
-    // jQuery('#tdfxNonClimb').hide();
+  jQuery("#part_type_individual_company_selection_container").addClass('field-required');
+  jQuery('#tdfxClimb').insertAfter(jQuery('#part_type_instruction_sub_header'));
+  jQuery('.tdfx-events').insertAfter(jQuery('#tdfxClimb'));
+  jQuery('#tdfxClimb2').insertAfter(jQuery('.tdfx-events'));
 });
 jQuery('select[name=fr_part_co_list]').change(function () {
     if (jQuery(this).val() == '5') {
