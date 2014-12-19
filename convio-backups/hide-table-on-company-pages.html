@@ -1,0 +1,18 @@
+<!-- this is the logic to add to pageWrapper to hide the donor table on the bottom of the page. -->
+[[?x1440xcompanyx::x[[S334:fr_id]]x[[S334:pg]]x::
+<!-- on a company page in the Tour De Fox -->
+<script type="text/javascript">
+jQuery('document').ready(function() {
+	jQuery(".lc_Table").parent().hide();
+});
+</script>
+::]]
+
+
+
+[[?x1440xcompanyx::x[[S334:fr_id]]x[[S334:pg]]x::
+<!-- on a company page in the Tour De Fox -->
+jQuery('#frStatus2 a').prop('href',jQuery('#frStatus2 a').prop('href').replace('PROXY_ID=1440','PROXY_ID=1001545').replace('PROXY_TYPE=21','PROXY_TYPE=20'));
+::]]
+<!-- The first line of the code is a conditional that checks to see that the URL contains both “fr_id=1440” and “pg=company” arguments.  If so, it uses jQuery to target the link in the #frStatus2 element (the “Donate Now” link) and changes its href property by replacing the PROXY_ID and PROXY_TYPE values to the ones that are correct for a donation to the participant (Sam).  Note that the PROXY_ID and PROXY_TYPE values are the only ones you should need to change there, to change the “soft credit” for the donation – the rest of the href should stay the same. -->
+
