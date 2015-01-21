@@ -1,4 +1,3 @@
-<!-- modified -->
 <style type="text/css">
 table.dataTable tr.odd{
 background-color: #fad3ab !important;
@@ -27,10 +26,13 @@ display: none !important;
 padding: 20px 40px;
 }
 tr.lc_Row1.even:last-of-type{
-	display: none !important; /* This line removes "Sam Fox" state from displaying on this Company List Page */
+	display: none !important;
 }
+th.lc_Heading.sorting, th.lc_Heading.sorting_asc {
+	cursor: default;
+} 
 </style>
-<h1>Activity by State</h1>
+<h1>Tour Schedule</h1>
 <p>Interested in joining Sam? Find out when Tour de Fox is scheduled to stop in your area! Click the state pages below to find out exactly where the Tour De Fox crew is going, what they are doing, and how you can get involved.</p>
 <p>Don&rsquo;t see a scheduled event that works with your calendar? Support the Tour de Fox campaign by joining Team Fox&mdash;The Michael J. Fox Foundation&rsquo;s grassroots fundraising events program&mdash;and planning your own bike, climb or social event! You can still fundraise alongside other Tour participants, and you&rsquo;ll be able to share news from your events with the community, as well.</p>
 <p>
@@ -93,6 +95,13 @@ jQuery(document).ready(function(){
 "Maryland":"06/15-06/17",
 "Indiana":"06/21",
 "Iowa":"07/12"};
+
+	jQuery(".lc_Table th:last-of-type").remove();
+	jQuery(".lc_Table th:last-of-type").remove();
+	jQuery(".lc_Table th:last-of-type").remove();
+	jQuery("td:last-of-type").remove();
+	jQuery("td:last-of-type").remove();
+	jQuery("td:last-of-type").remove();
 
 	jQuery(".lc_Table th:first-child").before("<th class='lc_Heading'>Date</th>");
 
