@@ -1,0 +1,107 @@
+<!-- original -->
+<style type="text/css"><!--
+table.dataTable tr.odd{
+background-color: #fad3ab !important;
+}
+table.dataTable tr.odd td.sorting_1{
+background-color: #fcb468 !important;
+}
+table.dataTable tr.even td.sorting_1{
+background-color: #fff8f0 !important;
+}
+table.dataTable a{
+color: #f77f00 !important;
+}
+table.dataTable thead th{
+padding: 8px 7px;
+}
+tr{
+font-size: 1.2em;
+-webkit-font-smoothing: antialiased;
+}
+#DataTables_Table_0_info{
+display: none !important;
+}
+.appArea{
+ width: 90%;
+padding: 20px 40px;
+}
+--></style>
+<h1>Activity by State</h1>
+<p>Interested in joining Sam? Find out when Tour de Fox is scheduled to stop in your area! Click the state pages below to find out exactly where the Tour De Fox crew is going, what they are doing, and how you can get involved.</p>
+<p>Don&rsquo;t see a scheduled event that works with your calendar? Support the Tour de Fox campaign by joining Team Fox&mdash;The Michael J. Fox Foundation&rsquo;s grassroots fundraising events program&mdash;and planning your own bike, climb or social event! You can still fundraise alongside other Tour participants, and you&rsquo;ll be able to share news from your events with the community, as well.</p>
+<p>
+<a class="mjffButton" href="TRR/Athletic/General/606063201?pg=utype&amp;fr_id=1440">Join the Tour</a></p>
+<div style="clear: both; margin-bottom: 20px;"></div>
+<p>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.js"></script>
+<link title="no title" rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css" type="text/css" media="screen" charset="utf-8" />
+<link title="no title" rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables_themeroller.css" type="text/css" media="screen" charset="utf-8" />
+</p>
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function(){
+	var states = {"Connecticut":"06/11-06/12",
+"Illinois":"07/04-07/06",
+"New York":"06/02, 06/08-06/09",
+"Kentucky":"06/22",
+"Oregon":"08/30-09/04",
+"Nebraska":"08/03",
+"Arkansas":"07/01-07/02",
+"Minnesota":"07/08-07/11",
+"Wyoming":"07/15-07/22",
+"West Virginia":"06/18",
+"Rhode Island":"06/11",
+"Maine":"06/03-06/05",
+"Louisiana":"06/29-07/01",
+"Delaware":"06/14-06/15",
+"Missouri":"07/03",
+"Idaho":"07/25-07/26",
+"Pennsylvania":"06/13-06/14, 06/17",
+"Utah":"07/26-07/30",
+"Arizona":"08/11-08/16",
+"Colorado":"07/31-08/03",
+"South Carolina":"06/25",
+"California":"08/19-08/29",
+"New Hampshire":"06/05-06/06",
+"Georgia":"06/27",
+"Tennessee":"06/25",
+"Mississippi":"06/28",
+"North Carolina":"06/24-06/26",
+"Texas":"08/10-08/11",
+"New Jersey":"06/13",
+"Oklahoma":"08/05-08/06",
+"Montana":"07/22-07/24",
+"Kansas":"08/04-08/05",
+"Massachusetts":"06/10-06/11",
+"Washington":"09/04-09/09",
+"Michigan":"07/08",
+"Virginia":"06/16, 06/23",
+"North Dakota":"07/13",
+"South Dakota":"07/13-07/15",
+"Nevada":"08/17-08/18, 08/24-08/25",
+"Alabama":"06/28-06/29",
+"New Mexico":"08/07-08/09",
+"Florida":"06/29",
+"Vermont":"06/07-06/08",
+"Ohio":"06/19-06/21",
+"Canada":"09/10-09/12",
+"Wisconsin":"07/06-07/07",
+"Maryland":"06/15-06/17",
+"Indiana":"06/21",
+"Iowa":"07/12"};
+
+	jQuery(".lc_Table th:first-child").before("<th class='lc_Heading'>Date</th>");
+
+	jQuery(".lc_Table td:first-child").each(function(){
+		var tmpState = jQuery(this).text().trim();
+		jQuery(this).before("<td class='lc_Heading'>" + states[tmpState] + "</td>");
+	});
+
+	jQuery('.lc_Table').dataTable({
+		"bPaginate" : false,
+"bFilter" :false
+	});
+jQuery('#DataTables_Table_0_wrapper').after('<div class="questions">Questions? Email <a href="mailto:tourdefox@michaeljfox.org">tourdefox@michaeljfox.org</a></div>');
+
+});
+// ]]></script>
