@@ -1,0 +1,119 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.mapbox-info-toggle {
+    display: none;
+}
+
+.leaflet-popup-content {
+    width: 300px !important;
+}
+
+.viewClimbLink {
+    width: 280px;
+    background-color: #F77F00;
+    padding: 1em 4em 1em 1em;
+    display: inline-block;
+    color: #FFF !important;
+    font-size: 18px;
+    position: relative;
+    border: 0;
+    text-align: center;
+}
+
+.marker_description {
+    line-height: 1.3em !important;
+    margin-bottom: 0.2em !important;
+}
+
+.viewClimbLink {
+    padding: 0.3em !important;
+}
+
+    .viewClimbLink:hover {
+        text-decoration: none;
+        background-color: #B61511;
+        color: #FFF;
+    }
+
+.leaflet-container img {
+    margin: 0 auto;
+    display: block;
+}
+
+img.icon-detail {
+    width: 45px;
+    height: 45px;
+}
+
+.menu-ui {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 240px;
+    background: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.4);
+    padding: 5px 0 2px 0;
+}
+
+    .menu-ui img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu-ui div.left {
+        float: left;
+        margin: 1px 19px 0 20px;
+    }
+
+    .menu-ui div.line {
+        border-top: 4px solid #F77F00;
+        width: 35px;
+        height: 4px;
+        position: relative;
+        margin: 13px 13px 10px 15px;
+    }
+
+    .menu-ui div.middle {
+        float: left;
+        margin: 6px 2px 2px 5px;
+        width: 100px;
+    }
+
+    .menu-ui div.right {
+        float: right;
+        margin: 6px 15px 2px 2px;
+        color: #808080;
+        font-size: 11px;
+    }
+
+        .menu-ui div.right a {
+            color: #808080;
+            text-decoration: none;
+        }
+
+.marker-desc {
+    float: left;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    width: 230px;
+}
+
+    .marker-desc span {
+        font-weight: bold;
+        font-size: 17px;
+    }

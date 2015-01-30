@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ride Icons - Final.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<color>ff7f0055</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<color>ff7f0055</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Ride Icons</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>Lake Erie Shoreline Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 20, 2015
+Cleveland, OH
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/Lake_Erie.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-81.69423477404924</longitude>
+				<latitude>41.50610031430947</latitude>
+				<altitude>585.7073725553541</altitude>
+				<heading>16.4731535062803</heading>
+				<tilt>24.82004534081921</tilt>
+				<roll>-0.6160163983291563</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-81.69398392064548,41.50830152871152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Blue Ridge Parkway Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 24, 2015
+Mt. Mitchell - Asheville, NC
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/Blue_Ridge.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1037&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1037&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-82.26902472324228</longitude>
+				<latitude>35.76021512182537</latitude>
+				<altitude>2350.798501765003</altitude>
+				<heading>16.09157096905785</heading>
+				<tilt>23.43975926494397</tilt>
+				<roll>-0.6525781989852856</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-82.26468075285716,35.76727996350367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Atlanta Area Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 27, 2015
+Atlanta, GA
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/Atlanta.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-84.14148507075268</longitude>
+				<latitude>33.81100690409741</latitude>
+				<altitude>717.2240852306355</altitude>
+				<heading>15.02643266891388</heading>
+				<tilt>23.36927680828307</tilt>
+				<roll>-0.65028006472375</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-84.14189284523422,33.81348218140177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lake Michigan Shoreline Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 5, 2015
+Chicago, IL
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/CHI.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-87.61732278455477</longitude>
+				<latitude>41.87294237792102</latitude>
+				<altitude>1279.553676462308</altitude>
+				<heading>13.32153173121933</heading>
+				<tilt>16.4260911840897</tilt>
+				<roll>-0.9163421645409134</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-87.61975368205047,41.87579748354377,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yellowstone National Park Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 21-22, 2015
+Jackson, WY - Cooke City, MT
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/Yellowstone.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1053&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1053&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-110.7595271866387</longitude>
+				<latitude>43.47793170570395</latitude>
+				<altitude>725.6170104296568</altitude>
+				<heading>-2.317992035827797</heading>
+				<tilt>12.58343932535168</tilt>
+				<roll>-1.192533690564153</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-110.7623534035539,43.47960117665848,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Independence Pass Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 1, 2015
+Aspen, CO
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/Independence_Pass.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-106.8186095442532</longitude>
+				<latitude>39.18865410111491</latitude>
+				<altitude>416.5883480159637</altitude>
+				<heading>0.9923117604358848</heading>
+				<tilt>29.26480120024144</tilt>
+				<roll>-0.5537625542431497</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-106.8192414984246,39.19065043006406,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Death Valley Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 19-20, 2015
+Badwater Basin - Whitney Portal
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/DV2.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-116.7621100109602</longitude>
+				<latitude>36.22413055883407</latitude>
+				<altitude>1924.441842002591</altitude>
+				<heading>-4.627218404727274</heading>
+				<tilt>20.98148064693571</tilt>
+				<roll>-1.032207472990866</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.7665512535418,36.23034428381432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>California Wine Country Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 29, 2015
+Kendall Jackson Vineyards
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/Wine_Country.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-122.7704176099956</longitude>
+				<latitude>38.50449334555987</latitude>
+				<altitude>1049.363943123585</altitude>
+				<heading>-8.37235892150489</heading>
+				<tilt>17.72409375571083</tilt>
+				<roll>-1.235908440502344</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.7723635059968,38.50666905668535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Hood Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: September 2, 2015
+Portland, OR - Mt. Hood
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/ORpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-122.6736922713422</longitude>
+				<latitude>45.51206681360973</latitude>
+				<altitude>817.1024135596526</altitude>
+				<heading>-8.202094628298632</heading>
+				<tilt>19.10028453682365</tilt>
+				<roll>-1.148391836516308</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.6753948205254,45.51440673695146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vancouver Island Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: September 11, 2015
+Victoria, BC
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/Victoria.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-123.3753015366516</longitude>
+				<latitude>48.41914978639969</latitude>
+				<altitude>785.941065118432</altitude>
+				<heading>-9.577332265419065</heading>
+				<tilt>10.95418489763201</tilt>
+				<roll>-1.982762297667339</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.3741758599997,48.42158642076568,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
