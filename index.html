@@ -1,130 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset=utf-8 />
-    <title>A MapBox Map</title>
+    <meta charset="utf-8" />
+    <title>Tour De Fox Map</title>
 
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-    <script src='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
-    <link href='//api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
-    <script src="js/climbs_1.js"></script>
-    <script src="js/climbs_2.js"></script>
-
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-        .mapbox-info-toggle {
-            display:none;
-        }
-
-        .leaflet-popup-content{
-            width: 300px !important;
-        }
-
-        .viewClimbLink {
-            background-color: #fea634;
-            padding:1em 4em 1em 1em;
-            display: inline-block;
-            color:#FFF !important;
-            font-size: 14px;
-            text-transform: uppercase;
-            position: relative;
-            border:0;
-        }
-        .marker_description {
-            line-height: 1.3em !important;
-            margin-bottom:0.2em !important;
-        }
-        .viewClimbLink {
-            padding:0.5em !important;
-        }
-
-      .viewClimbLink:hover {
-          text-decoration: none;
-          background-color: #ff472f;
-          color:#FFF;
-      }
-
-    .leaflet-container img {
-        margin: 0 auto;
-        display: block;
-    }
-
-    </style>
+    <script src='//api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
+    <link href='//api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+    <link href='css/map.css?v1.03' rel='stylesheet' />
+    <script src="js/map_ini.js?v1.03"></script>
+    <script src="js/marker_kml_files.js?v1.03"></script>
+    <script src="js/route_kml_files.js?v1.03"></script>
 </head>
 <body>
+
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+    <nav id="menu-ui" class='menu-ui'>
+        <div>
+            <div class="left">
+                <img src="https://s3-us-west-2.amazonaws.com/imulus-mjff/MountianPin.svg" />
+            </div>
+            <div class="middle">Climb</div>
+            <div class="right"><a href="#" id="filter-climb">Hide</a></div>
+        </div>
+        <div style="clear: both;">
+            <div class="left">
+                <img src="https://s3-us-west-2.amazonaws.com/imulus-mjff/BallonPin.svg" />
+            </div>
+            <div class="middle">Celebrate</div>
+            <div class="right"><a href="#" id="filter-celebrate">Hide</a></div>
+        </div>
+        <div style="clear: both;">
+            <div class="left">
+                <img src="https://s3-us-west-2.amazonaws.com/imulus-mjff/BicyclePin.svg" />
+            </div>
+            <div class="middle">Ride</div>
+            <div class="right"><a href="#" id="filter-ride">Hide</a></div>
+        </div>
+    </nav>
+
     <div id='map'></div>
 
-    <script>
-  // Visit https://www.mapbox.com/mapbox.js/overview/ for documentation and examples
-
-
-  var map = L.mapbox.map('map', 'sfaomx09.jklmc311',  {
-    shareControl: true,
-    // SETTING ZOOM LEVELS
-    maxZoom:13,
-    minZoom:4
-})
-    .setView([43.329, -71.411], 7)
-    // .minZoom(4)
-
-    .addControl(L.mapbox.geocoderControl('sfaomx09.jklmc311'));
-
-
-map.markerLayer.on('layeradd', function(e) {
-    var marker = e.layer,
-        feature = marker.feature;
-
-    marker.setIcon(L.icon(feature.properties.icon));
-});
-map.on('zoomend', function() {
-    // here's where you decided what zoom levels the layer should and should
-    // not be available for: use javascript comparisons like < and > if
-    // you want something other than just one zoom level, like
-    // (map.getZoom > 10)
-
-    if (map.getZoom() <= 4) {
-      map.markerLayer.setGeoJSON(geojson)
-            // map.markerLayer.setIcon(L.icon(feature.properties.icon2));
-        // setFilter is available on L.mapbox.markerLayers only. Here
-        // we're hiding and showing the default marker layer that's attached
-        // to the map - change the reference if you want to hide or show a
-        // different markerLayer.
-        // If you want to hide or show a different kind of layer, you can use
-        // similar methods like .setOpacity(0) and .setOpacity(1)
-        // to hide or show it.
-      // map.markerLayer.setFilter(function() { return true; });
-      // marker.setIcon(L.icon(feature.properties.icon));
-    } else {
-      map.markerLayer.setGeoJSON(geojson2)
-       // map.markerLayer.setIcon(L.icon(feature.properties.icon));
-        // map.markerLayer.setFilter(function() { return false; });
-        //marker.setIcon(L.icon(feature.properties.icon2));
-    }
-});
-
-
-L.control.scale().addTo(map);
-// map.markerLayer.on('mouseover', function(e) {
-//     e.layer.openPopup();
-// });
-// map.markerLayer.on('mouseout', function(e) {
-//     e.layer.closePopup();
-// });
-
-map.on('ready', function() {
-    map.fitBounds(map.markerLayer.getBounds());
-});
-map.markerLayer.setGeoJSON(geojson);
- // Go up to 7 at that levels.
-// ADDED SCALE TO MAP
-
-
-// SETTING THE MAP TO LOAD WITH ALL MARKERS VISIBLE
-
-
-
-
-
-</script></body>
+    <script src="js/map_app.js"></script>
+</body>
 </html>

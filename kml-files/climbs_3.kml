@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Climb Icons - Final.kml</name>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin000">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin000">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Climb Icons</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>Mt. Katahdin (ME)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 4, 2015
+Elevation: 5,269 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/MEpic2.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-68.92150077078586</longitude>
+				<latitude>45.90407207138684</latitude>
+				<altitude>302.9623849861005</altitude>
+				<heading>-29.52195026176914</heading>
+				<tilt>0.2170806004713027</tilt>
+				<roll>-61.29948886012942</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-68.92182158295091,45.90444301281894,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Washington (NH)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 6, 2015
+Elevation: 6,288 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/NHpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1023&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1023&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-71.30245007742538</longitude>
+				<latitude>44.27143378195998</latitude>
+				<altitude>0</altitude>
+				<heading>29.97693979951225</heading>
+				<tilt>58.21184914612405</tilt>
+				<range>446.2989404465694</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.3031933349495,44.27064401230994,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. mansfield (VT)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 7, 2015
+Elevation: 4,393 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/VTpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1024&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1024&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-72.81222845826351</longitude>
+				<latitude>44.54671737418708</latitude>
+				<altitude>0</altitude>
+				<heading>28.92743023935793</heading>
+				<tilt>60.00694599225235</tilt>
+				<range>709.4695910023188</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.81448790854535,44.54376940097878,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Marcy (NY)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 8, 2015
+Elevation: 5,344 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/NYpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1070&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1070&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-73.92271886788181</longitude>
+				<latitude>44.11446439666154</latitude>
+				<altitude>0</altitude>
+				<heading>28.1306305317836</heading>
+				<tilt>60.005125226141</tilt>
+				<range>475.2577088568027</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-73.92379498434484,44.11287253541465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Greylock (MA)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 10, 2015
+Elevation: 3,491 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/MApic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1025&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1025&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-73.16404699336765</longitude>
+				<latitude>42.63841743934002</latitude>
+				<altitude>0</altitude>
+				<heading>28.5461516071757</heading>
+				<tilt>40.24069675894246</tilt>
+				<range>953.2484063109092</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-73.16587156360323,42.63730726129031,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jerimoth Hill (RI)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 11, 2015
+Elevation: 812 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/RIpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1026&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1026&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-71.77748177554153</longitude>
+				<latitude>41.84793263652602</latitude>
+				<altitude>494.7507855153286</altitude>
+				<heading>28.90088905312218</heading>
+				<tilt>12.66550242989131</tilt>
+				<roll>-0.8085347689462215</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.778923672254,41.84925907708427,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Frissell (CT)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 12, 2015
+Elevation: 2,379 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/ctpic12203.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1027&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1027&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-73.48205790235294</longitude>
+				<latitude>42.0492595768873</latitude>
+				<altitude>0</altitude>
+				<heading>28.28094718710169</heading>
+				<tilt>33.27332172140029</tilt>
+				<range>495.6356487813</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-73.48238879102186,42.04971077900687,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>High Point (NJ)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 13, 2015
+Elevation: 1,804 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/NJpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1080&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1080&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-74.66065286566844</longitude>
+				<latitude>41.32141013948392</latitude>
+				<altitude>0</altitude>
+				<heading>27.49816925003906</heading>
+				<tilt>34.41947977230021</tilt>
+				<range>581.3619968408736</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-74.66142429400593,41.3210848891795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ebright Azimuth (DE)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 14, 2015
+Elevation: 448 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/DEpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1029&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1029&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-75.51838699290067</longitude>
+				<latitude>39.83633301368027</latitude>
+				<altitude>0</altitude>
+				<heading>26.85711035810252</heading>
+				<tilt>26.82484940417776</tilt>
+				<range>791.0873942360687</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.51890196239272,39.8362022110075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Davis (PA)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 17, 2015
+Elevation: 3,213 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/PApic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1030&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1030&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-79.17430104252308</longitude>
+				<latitude>39.78389319517173</latitude>
+				<altitude>865.8218044956944</altitude>
+				<heading>24.02102223671065</heading>
+				<tilt>10.03528117156499</tilt>
+				<roll>-0.823426376082985</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.17633716911185,39.78597614950637,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Backbone Mountain (MD)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 17, 2015
+Elevation: 3,360 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/MDpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1031&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1031&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-79.48456031770428</longitude>
+				<latitude>39.23840240244258</latitude>
+				<altitude>0</altitude>
+				<heading>24.25349468540941</heading>
+				<tilt>20.5001810688908</tilt>
+				<range>1205.759057549903</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.48537084553797,39.23749116716885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spruce Knob (WV)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 18, 2015
+Elevation: 4,863 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/WVpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1032&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1032&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-79.53398762939536</longitude>
+				<latitude>38.6988907997322</latitude>
+				<altitude>0</altitude>
+				<heading>24.24562358723299</heading>
+				<tilt>21.48353757624019</tilt>
+				<range>1925.405562002224</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.53268588053879,38.70001012128606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Campbell Hill (OH)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 20, 2015
+Elevation: 1,550 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/ohpic12223.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-83.71991654482261</longitude>
+				<latitude>40.36716434582769</latitude>
+				<altitude>900.7068226448042</altitude>
+				<heading>21.7829341959843</heading>
+				<tilt>24.86720338245077</tilt>
+				<roll>-0.5169350894609411</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-83.72001047193113,40.36997711545652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hoosier Hill (IN)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 21, 2015
+Elevation: 1,257 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/INpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1034&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1034&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-84.85057028864236</longitude>
+				<latitude>39.99469260416553</latitude>
+				<altitude>1520.593668450286</altitude>
+				<heading>20.27635129210293</heading>
+				<tilt>9.956484724104019</tilt>
+				<roll>-1.27380667883153</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-84.85026759865326,40.00098492542501,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Black Mountain (KY)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 22, 2015
+Elevation: 4,145 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/KYpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1035&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1035&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-82.89178959100524</longitude>
+				<latitude>36.91584972039441</latitude>
+				<altitude>0</altitude>
+				<heading>22.45284248159188</heading>
+				<tilt>34.67345352976955</tilt>
+				<range>1332.11766122366</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-82.8939204686711,36.91441204428716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Rogers (VA)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 23, 2015
+Elevation: 5,279 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/VApic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1036&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1036&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-81.54717802871622</longitude>
+				<latitude>36.65398225297161</latitude>
+				<altitude>1227.914538335192</altitude>
+				<heading>23.10333388545936</heading>
+				<tilt>24.99782538866253</tilt>
+				<roll>-0.5338028624748766</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-81.54467869510843,36.65980228667056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Mitchell (NC)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 24, 2015
+Elevation: 6,683 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/NCpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1037&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1037&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-82.26605345576267</longitude>
+				<latitude>35.76441955308929</latitude>
+				<altitude>0</altitude>
+				<heading>22.89701287034996</heading>
+				<tilt>41.68329157603662</tilt>
+				<range>476.0723136891197</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-82.26510173784961,35.76496416867852,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sassafras Mountain (SC)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 25, 2015
+Elevation: 3,563 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/SCpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1038&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1038&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-82.77609592219024</longitude>
+				<latitude>35.06584052858111</latitude>
+				<altitude>0</altitude>
+				<heading>22.57975256147356</heading>
+				<tilt>39.04872283520895</tilt>
+				<range>794.8218763946364</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-82.77614293206283,35.06471334880153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Clingman&apos;s Dome (TN)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 25, 2015
+Elevation: 6,644 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/TNpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1039&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1039&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-83.49602032253098</longitude>
+				<latitude>35.56199392556383</latitude>
+				<altitude>0</altitude>
+				<heading>22.20431392617465</heading>
+				<tilt>40.4356355734331</tilt>
+				<range>800.2641016977655</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-83.49855920394353,35.56294864475144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Brasstown Bald (GA)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 26, 2015
+Elevation: 4,783 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/GApic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-83.8099925509562</longitude>
+				<latitude>34.87554961827129</latitude>
+				<altitude>0</altitude>
+				<heading>22.06848625784329</heading>
+				<tilt>44.82496443680218</tilt>
+				<range>906.1166396993374</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-83.81036763016434,34.87410098184721,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cheaha Mountain (AL)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 28, 2015
+Elevation: 2,407 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/ALpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1020&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1020&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-85.8069427317689</longitude>
+				<latitude>33.48263312813616</latitude>
+				<altitude>880.4748188646861</altitude>
+				<heading>20.72248401278838</heading>
+				<tilt>26.08938819995271</tilt>
+				<roll>-0.5236195411169254</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-85.80752346692017,33.48604604387634,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Woodall Mountain (MS)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 28, 2015
+Elevation: 807 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/mspic12248.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1041&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1041&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-88.24254444175638</longitude>
+				<latitude>34.78546005018723</latitude>
+				<altitude>758.7833666779866</altitude>
+				<heading>19.35256941877371</heading>
+				<tilt>24.95787856708606</tilt>
+				<roll>-0.5545981667696923</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-88.24179989325174,34.78786100311035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Britton Hill (FL)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 29, 2015
+Elevation: 345 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/FLpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1042&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1042&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-86.28280410971205</longitude>
+				<latitude>30.98563470490666</latitude>
+				<altitude>1013.398536046289</altitude>
+				<heading>19.99029128347536</heading>
+				<tilt>14.44668382425432</tilt>
+				<roll>-0.909250000467668</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-86.28119520619569,30.9870734519167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Driskill Mountain (LA)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 1, 2015
+Elevation: 535 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/LApic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1043&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1043&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-92.89551632496347</longitude>
+				<latitude>32.42067356523405</latitude>
+				<altitude>1616.156260006782</altitude>
+				<heading>15.67437289671312</heading>
+				<tilt>7.330446697035363</tilt>
+				<roll>-1.785901894979256</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-92.8974508862902,32.42445737200057,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Magazine (AR)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 2, 2015
+Elevation: 2,753 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/ARpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1044&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1044&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-93.63754130860276</longitude>
+				<latitude>35.15958106748024</latitude>
+				<altitude>2896.632025150621</altitude>
+				<heading>15.55794328372487</heading>
+				<tilt>8.886264009651843</tilt>
+				<roll>-1.478512531557254</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-93.64662447755829,35.16641048868252,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Taum Sauk Mountain (MO)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 3, 2015
+Elevation: 1,772 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/MOpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1045&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1045&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-90.72903488351693</longitude>
+				<latitude>37.56393248127622</latitude>
+				<altitude>2509.172357970198</altitude>
+				<heading>17.33429405666907</heading>
+				<tilt>9.440807651121146</tilt>
+				<roll>-1.403397251065974</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-90.72579542590395,37.57125564549726,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Charles Mound (IL)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 4, 2015
+Elevation: 1,235 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/ILpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-90.23840951400287</longitude>
+				<latitude>42.49973693160642</latitude>
+				<altitude>1093.544105853789</altitude>
+				<heading>17.47581056861562</heading>
+				<tilt>8.584297460991865</tilt>
+				<roll>-1.537839561415121</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-90.23997408818224,42.50410448978896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Timm&apos;s Hill (WI)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 7, 2015
+Elevation: 1,951 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/WIpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1047&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1047&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-90.19823825872759</longitude>
+				<latitude>45.44671765925455</latitude>
+				<altitude>1946.454981719556</altitude>
+				<heading>17.89517056969575</heading>
+				<tilt>11.67968444467698</tilt>
+				<roll>-1.134601161094688</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-90.19553940353715,45.45063450976041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Arvon (MI)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 8, 2015
+Elevation: 1,979 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/MIpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1048&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1048&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-88.16197432265349</longitude>
+				<latitude>46.75034314928152</latitude>
+				<altitude>2248.309555387006</altitude>
+				<heading>19.02654799358097</heading>
+				<tilt>9.139233734330073</tilt>
+				<roll>-1.447090415133486</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-88.15608109905661,46.755435183745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eagle Mountain (MN)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 10, 2015
+Elevation: 2,301 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/MNpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1049&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1049&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-90.55637078294919</longitude>
+				<latitude>47.89346973588021</latitude>
+				<altitude>1441.262164123898</altitude>
+				<heading>17.23613765132782</heading>
+				<tilt>8.934521877459682</tilt>
+				<roll>-1.480978790634432</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-90.56023002512995,47.89787468549008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hawkeye Point (IA)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 12, 2015
+Elevation: 1,670
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/IApic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1050&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1050&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-95.70748531910445</longitude>
+				<latitude>43.45828360627205</latitude>
+				<altitude>943.0497616103738</altitude>
+				<heading>14.35451222845556</heading>
+				<tilt>18.11792127005967</tilt>
+				<roll>-0.7404462433110602</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-95.70890752927392,43.46015584895851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>White Butte (ND)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 13, 2015
+Elevation: 3,506 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/NDpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1051&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1051&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-103.302125423791</longitude>
+				<latitude>46.38398005166503</latitude>
+				<altitude>802.7739680540585</altitude>
+				<heading>8.9367996059676</heading>
+				<tilt>16.53463171242017</tilt>
+				<roll>-0.810857606785553</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-103.3027407523423,46.38701029653678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Harney Peak (SD)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 15, 2015
+Elevation: 7,244 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/SDpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1052&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1052&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-103.5303786686227</longitude>
+				<latitude>43.86276052934809</latitude>
+				<altitude>990.908627814134</altitude>
+				<heading>8.818040387885093</heading>
+				<tilt>17.4146138922496</tilt>
+				<roll>-0.7672402678358256</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-103.5322248467277,43.86607955708381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gannett Peak (WY)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 17-20, 2015
+Elevation: 13,809 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/WYpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1053&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1053&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-109.6534728503678</longitude>
+				<latitude>43.18362803973947</latitude>
+				<altitude>0</altitude>
+				<heading>4.930053569698701</heading>
+				<tilt>30.97308359485756</tilt>
+				<range>903.0450340066428</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-109.6541352988852,43.18444723163427,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Granite Peak (MT)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 23-24, 2015
+Elevation: 12,807 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/MTpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1054&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1054&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-109.8065029501703</longitude>
+				<latitude>45.17440837630208</latitude>
+				<altitude>0</altitude>
+				<heading>5.068361440651185</heading>
+				<tilt>55.20491457825975</tilt>
+				<range>1636.330069923735</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-109.8076613732874,45.16344453522435,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Borah Peak (ID)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 26, 2015
+Elevation: 12,667 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/IDpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1055&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1055&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-113.7787014500214</longitude>
+				<latitude>44.14064651084896</latitude>
+				<altitude>0</altitude>
+				<heading>2.169812297712254</heading>
+				<tilt>39.40094965757325</tilt>
+				<range>1134.228506370219</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-113.7806467605949,44.13711080335008,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>King&apos;s Peak (UT)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 28-30, 2015
+Elevation: 13,527 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/UTpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1056&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1056&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-110.3738918613117</longitude>
+				<latitude>40.77525225939441</latitude>
+				<altitude>678.2272461053672</altitude>
+				<heading>1.904615882291711</heading>
+				<tilt>4.766644911314233</tilt>
+				<roll>-2.860991675869848</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-110.3727638644314,40.77629245332679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Elbert (CO)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 2, 2015
+Elevation: 14,440 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/COpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-106.4460047742953</longitude>
+				<latitude>39.11869011357409</latitude>
+				<altitude>0</altitude>
+				<heading>7.036244008363024</heading>
+				<tilt>45.99235539589212</tilt>
+				<range>456.5589235611782</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-106.4453192801643,39.11773036536882,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Panorama Point (NE)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 3, 2015
+Elevation: 5,429 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/NEpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1058&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1058&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-104.0312258966798</longitude>
+				<latitude>41.00345778170757</latitude>
+				<altitude>1899.428822792685</altitude>
+				<heading>7.680221185189966</heading>
+				<tilt>12.05021462765305</tilt>
+				<roll>-1.140026046553916</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-104.0313211953898,41.00756725876988,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Sunflower (KS)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 4, 2015
+Elevation: 4,039 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/KSpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1059&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1059&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-102.0372831591833</longitude>
+				<latitude>39.02203816452524</latitude>
+				<altitude>1792.984731884668</altitude>
+				<heading>8.88155392271722</heading>
+				<tilt>11.04905012201557</tilt>
+				<roll>-1.241486278737119</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-102.0372189935262,39.02177411995394,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Black Mesa (OK)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 6, 2015
+Elevation: 4,973 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/OKpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1060&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1060&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-102.9957959803338</longitude>
+				<latitude>36.92963097004397</latitude>
+				<altitude>1357.124725166955</altitude>
+				<heading>8.734189523227496</heading>
+				<tilt>16.76401534570934</tilt>
+				<roll>-0.8274250895706927</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-102.9978030559913,36.93177537954336,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wheeler Peak (NM)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 8, 2015
+Elevation: 13,167 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/NMpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1061&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1061&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-105.4173629135782</longitude>
+				<latitude>36.55715321561671</latitude>
+				<altitude>0</altitude>
+				<heading>7.907939103215611</heading>
+				<tilt>48.97508114113153</tilt>
+				<range>669.1605386022847</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-105.4169100101444,36.55683862034884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Guadalupe Peak (TX)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 10, 2015
+Elevation: 8,750 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/TXpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1062&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1062&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-104.86031035559</longitude>
+				<latitude>31.89007448911363</latitude>
+				<altitude>0</altitude>
+				<heading>8.159438511411794</heading>
+				<tilt>32.28277952199113</tilt>
+				<range>980.1303539641725</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-104.860571131405,31.89127243833834,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Humphrey&apos;s Peak (AZ)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 15, 2015
+Elevation: 12,635 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/AZpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-111.6761079167164</longitude>
+				<latitude>35.34667046225325</latitude>
+				<altitude>0</altitude>
+				<heading>4.513407409393163</heading>
+				<tilt>35.59395141168685</tilt>
+				<range>913.2524810564995</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.6778924263874,35.34662591316614,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grand Canyon Run</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 16, 2015
+Rim to Rim (23 miles)
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/AZpic2.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-112.0833970193612</longitude>
+				<latitude>36.0540461619395</latitude>
+				<altitude>0</altitude>
+				<heading>4.345217003902737</heading>
+				<tilt>41.27450257792736</tilt>
+				<range>1175.780737209926</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-112.083796710989,36.05278118067164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Whitney (CA)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 22-23, 2015
+Elevation: 14,496 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/CApic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-118.2911462892189</longitude>
+				<latitude>36.57614275534159</latitude>
+				<altitude>635.9625118193244</altitude>
+				<heading>0.5792099579727611</heading>
+				<tilt>31.09698080075184</tilt>
+				<roll>-0.5092252506569808</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-118.2922004739861,36.57856299309784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Boundary Peak (NV)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 25, 2015
+Elevation: 13,146 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/NVpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1064&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1064&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-118.3459446603512</longitude>
+				<latitude>37.83903230334891</latitude>
+				<altitude>2756.812285299022</altitude>
+				<heading>0.07038905919650969</heading>
+				<tilt>16.07563900512388</tilt>
+				<roll>-0.9528720095644422</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-118.3515106555585,37.84607226434366,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Hood (OR)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: September 3, 2015
+Elevation: 11,250 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/ORpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-121.6952069167944</longitude>
+				<latitude>45.37373891752712</latitude>
+				<altitude>0</altitude>
+				<heading>-1.290896662677913</heading>
+				<tilt>44.45780543572944</tilt>
+				<range>563.9408769920819</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-121.6957006833888,45.37339866805859,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mt. Rainier (WA)</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: September 6-9, 2015
+Elevation: 14,410 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/WApic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1066&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1066&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-121.7580264846272</longitude>
+				<latitude>46.8467736309969</latitude>
+				<altitude>1108.12240439742</altitude>
+				<heading>-1.580213838258317</heading>
+				<tilt>27.23433099963211</tilt>
+				<roll>-0.5873368216970857</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-121.759022899228,46.85373541426655,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grouse Grind</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: September 12, 2015
+Elevation: 3,614 ft.
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/CANpic.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company
+</a>]]></description>
+			<LookAt>
+				<longitude>-123.0805264307231</longitude>
+				<latitude>49.37929466549529</latitude>
+				<altitude>0</altitude>
+				<heading>-2.398423130440882</heading>
+				<tilt>39.29639270631902</tilt>
+				<range>746.778318160979</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.0830542853652,49.37935581596843,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
