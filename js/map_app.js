@@ -1,4 +1,4 @@
-﻿var map = L.mapbox.map('map', 'sfaomx09.jklmc311', {
+﻿var map = L.mapbox.map('map', 'sfaomx09.l37c7kb2', {
     shareControl: true,
     // SETTING ZOOM LEVELS
     maxZoom: 13,
