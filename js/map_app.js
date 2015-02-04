@@ -353,32 +353,32 @@ filter_ride.onclick = function (e) {
 };
 
 
-// Filter Route
-var filter_route = document.getElementById('filter-route');
+// Filter Route. This functionality was removed so was the div with id of filter-route
+// var filter_route = document.getElementById('filter-route');
 
-filter_route.onclick = function (e) {
-    var hideRoute = false;
+// filter_route.onclick = function (e) {
+//     var hideRoute = false;
 
-    if (this.innerHTML == "Hide") {
-        this.innerHTML = "Show";
-        hideRoute = true;
-    }
-    else {
-        this.innerHTML = "Hide";
-        hideRoute = false;
-    }
+//     if (this.innerHTML == "Hide") {
+//         this.innerHTML = "Show";
+//         hideRoute = true;
+//     }
+//     else {
+//         this.innerHTML = "Hide";
+//         hideRoute = false;
+//     }
 
-    if (true == hideRoute) {
-        map.removeLayer(routeLayerGeneral);
-        map.removeLayer(routeLayerClimb);
-        map.removeLayer(routeLayerRide);
-    }
-    else {
-        map.addLayer(routeLayerGeneral);
-        map.addLayer(routeLayerClimb);
-        map.addLayer(routeLayerRide);
-    }
+//     if (true == hideRoute) {
+//         map.removeLayer(routeLayerGeneral);
+//         map.removeLayer(routeLayerClimb);
+//         map.removeLayer(routeLayerRide);
+//     }
+//     else {
+//         map.addLayer(routeLayerGeneral);
+//         map.addLayer(routeLayerClimb);
+//         map.addLayer(routeLayerRide);
+//     }
 
-    return false;
-};
+//     return false;
+// };
 
