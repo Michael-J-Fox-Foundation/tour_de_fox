@@ -1,0 +1,139 @@
+<style type="text/css"><!--
+.key{
+text-align: center;
+position: relative;
+top: -4px;
+background-color: #7e7e7e;
+width: 885px;
+height: 43px;
+}
+
+.athleticEventMap,
+.celebrationEventMap{
+background-color: #ededed;
+padding: 20px;
+box-shadow: 7px -4px 14px -6px grey;
+}
+span.celebrationEvent{
+position: relative;
+left: 56px;
+}
+.mapList span.selectedMap {
+background-color: #EDEDED;
+box-shadow: 4px -3px 10px -5px grey;
+}
+h3.mapList{
+padding: 0;
+background-color: #f6f6f6;
+}
+.mapList span {
+display: inline-block;
+text-align: center;
+padding: 10px 0;
+cursor: pointer;
+width: 440px;
+}
+
+.questions{
+background-color: #ededed;
+padding: 15px 0px;
+text-align: center;
+color: #f77f00;
+}
+.mainContent{
+padding: 0px;
+text-align: left;
+}
+p{
+font-size: 16px;
+}
+.herospace{
+position:relative;
+width: 976px;
+top: -20px;
+right: 20px;
+}
+.herospace h1{
+color: #fff;
+position: absolute;
+left: 26px;
+top: 40px;
+text-align: left;
+font-size: 3em;
+}
+.TFtransBox{
+position:absolute;
+left:0;
+top:0;
+width: 330px;
+height: 301px;
+background-color: #f77f00;
+opacity: 0.8;
+filter: alpha(opacity=80);
+}
+.section{
+padding: 11px;
+margin: 20px 0px;
+background: #ededed;
+text-align: center;
+color: #f77f00;
+}
+--></style>
+<div class="mainContent">
+<div class="herospace">
+<div><img src="../images/content/pagebuilder/samBanner.jpg" border="0" alt="samBanner.jpg" width="976" height="300" /></div>
+<div class="TFtransBox">&nbsp;</div>
+<h1>14,000 miles<br />
+49 peaks<br />
+3 months<br />
+FIND YOUR SUMMIT.</h1>
+</div>
+<h1>about tour de fox</h1>
+<p>Extreme adventure athlete and MJFF staff member Sam Fox (no relation to Michael) will bike and hike his way across the United States &mdash; climbing the highest peak in each state &mdash; in just three months... and he wants you to join him.</p>
+<p>Tour de Fox unites and inspires the Parkinson's community through passion, sweat and determination all while raising critical funds for better Parkinson's treatments.</p>
+<p>Be a part of the 14,000 mile journey for Parkinson's research. Find your summit with Tour de Fox by biking, climbing or celebrating with Sam.</p>
+<div style="text-align: center;">
+	<a class="mjffButton" style="margin-right: 20px;" href="TR/Athletic/General?sid=1210&amp;fr_id=1440&amp;pg=informational">ways to get involved</a>
+	<a class="mjffButton" style="margin-right: 20px;" href="TR/Athletic/General?pg=complist&amp;fr_id=1440">tour schedule</a>
+	<a class="mjffButton" style="margin-right: 20px;" href="TR?company_id=1090&amp;fr_id=1440&amp;pg=company">donate to sam</a>
+</div>
+<h1 style="margin-top: 50px;">find your summit</h1>
+<p>Explore the Tour de Fox interactive map below to see when Sam is passing through your area. Sign up to take part in an official Tour de Fox climb or bike ride or attend one of the many celebrations across the country. You can also view the tour route by dates on the the Tour Schedule page.</p>
+<!--
+<h3 class="mapList"><span class="athleticEvents selectedMap">Climb or Ride With Sam</span><span class="celebrationEvent">Celebrate with Sam</span> </h3>
+/-->
+<div class="athleticEventMap">
+<iframe style="width: 870px; height: 430px; border: 10px solid grey;" src="http://mbwenger.com/tour_de_fox/"></iframe>
+</div>
+<p>&nbsp;</p>
+<!--
+<h2 class="section">Watch the Tour de Fox Videos</h2>
+<iframe style="margin-right: 20px;" _mce_style="margin-right: 20px;" src="//www.youtube.com/embed/-lsSaNKK4gk" _mce_src="//www.youtube.com/embed/-lsSaNKK4gk" height="285" width="450" frameborder="0"></iframe>
+<iframe src="//www.youtube.com/embed/MNyAynDNtV0" _mce_src="//www.youtube.com/embed/MNyAynDNtV0" height="285" width="450" frameborder="0"></iframe> -->
+<h2 class="section">Thank you to our Sponsors</h2>
+<div style="text-align: center;">
+<p style="display: inline; margin-right: 40px; position: relative; top: -49px;"><img src="../images/content/pagebuilder/VW_DasAuto2013_3D_lowtrimmed.png" border="0" alt="VW_logo" width="140" height="183" /></p>
+<p style="display: inline;"><img src="../images/content/pagebuilder/100percent2.jpg" border="0" alt="100_percent" width="400" height="249" /></p>
+</div>
+</div>
+<div style="clear: both;"></div>
+<div class="questions">Questions? Email <a href="mailto:tourdefox@michaeljfox.org">tourdefox@michaeljfox.org</a></div>
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function(){
+	jQuery(".celebrationEventMap").hide();
+
+	jQuery(".mapList span").click(function(){
+		jQuery(".mapList span").removeClass("selectedMap");
+		jQuery(this).addClass("selectedMap");
+
+		if(jQuery(this).hasClass('athleticEvents')){
+			jQuery(".celebrationEventMap").hide();
+			jQuery(".athleticEventMap").show();
+		} else if (jQuery(this).hasClass('celebrationEvent')){
+			jQuery(".athleticEventMap").hide();
+			jQuery(".celebrationEventMap").show();
+		}
+	})
+
+})
+// ]]></script>
