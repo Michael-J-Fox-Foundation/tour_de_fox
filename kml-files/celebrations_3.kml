@@ -112,50 +112,6 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Portland, ME</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 4, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-70.25938499038442</longitude>
-				<latitude>43.65563290548295</latitude>
-				<altitude>775.4916679374387</altitude>
-				<heading>21.65346142819429</heading>
-				<tilt>19.934099006095</tilt>
-				<roll>-1.102492416792226</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-70.25791462339117,43.65835327357611,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>North Conway, NH</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 5, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1023&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1023&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-71.12898456171095</longitude>
-				<latitude>44.05117178458191</latitude>
-				<altitude>810.7589791706708</altitude>
-				<heading>20.83445241810404</heading>
-				<tilt>16.76424823037298</tilt>
-				<roll>-1.308762441745256</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-71.12836707777234,44.05364998181008,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Stowe, VT</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: June 6, 2015
@@ -244,28 +200,6 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1027&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Philadelphia, PA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 13, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1030&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1030&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-75.1657036275213</longitude>
-				<latitude>39.94960550663024</latitude>
-				<altitude>1341.079247819841</altitude>
-				<heading>18.19032999547659</heading>
-				<tilt>17.67686275621863</tilt>
-				<roll>-1.264137766313939</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-75.16527393157082,39.95256471792897,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Wilmington, DE</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: June 14, 2015
@@ -332,28 +266,6 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Cincinnati, OH</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 21, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-84.50870561824905</longitude>
-				<latitude>39.09201278970473</latitude>
-				<altitude>2326.239122329693</altitude>
-				<heading>11.69245151856588</heading>
-				<tilt>12.58013353511299</tilt>
-				<roll>-1.787798676829372</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-84.50895975173846,39.09852218928695,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Atlanta, GA</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: June 27, 2015
@@ -373,28 +285,6 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company"
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-84.13797065543469,33.81103637440751,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Montgomery, AL</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 28, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1020&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1020&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-86.30095834205866</longitude>
-				<latitude>32.37426678285362</latitude>
-				<altitude>1255.961158007954</altitude>
-				<heading>11.04390417840103</heading>
-				<tilt>15.39895799034928</tilt>
-				<roll>-1.471097560839091</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-86.30126695928149,32.377706839782,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
