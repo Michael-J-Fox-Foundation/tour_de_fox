@@ -94,7 +94,7 @@
 			<visibility>0</visibility>
 			<description><![CDATA[Date: June 3, 2015
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail">	http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail
 </a>]]></description>
 			<LookAt>
 				<longitude>-68.70787092595701</longitude>
@@ -112,319 +112,11 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1022&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Stowe, VT</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 6, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1024&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1024&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-72.69373105370565</longitude>
-				<latitude>44.46443445037085</latitude>
-				<altitude>1491.649682229363</altitude>
-				<heading>19.65766565047578</heading>
-				<tilt>15.70286837688911</tilt>
-				<roll>-1.397384964026284</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-72.68737723548291,44.46546221700639,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Lake Placid, NY</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 7, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1070&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1070&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-73.98144391399643</longitude>
-				<latitude>44.27638653788888</latitude>
-				<altitude>1030.463845761271</altitude>
-				<heading>19.40750724170578</heading>
-				<tilt>28.62123740849953</tilt>
-				<roll>-0.7886447766214361</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-73.9802332974394,44.27952160110248,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Boston, MA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 10, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1025&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1025&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-71.06638785384776</longitude>
-				<latitude>42.35606273381986</latitude>
-				<altitude>822.8585907403086</altitude>
-				<heading>20.75103265201032</heading>
-				<tilt>16.05575150871659</tilt>
-				<roll>-1.375816501308611</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-71.06323860946145,42.35770554141424,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>New Haven, CT</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 11, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1027&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1027&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-72.92884428224805</longitude>
-				<latitude>41.30812137854185</latitude>
-				<altitude>738.4962758302339</altitude>
-				<heading>19.60101582564795</heading>
-				<tilt>17.03937549874565</tilt>
-				<roll>-1.305034984876396</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-72.92996155804801,41.31072958639304,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Wilmington, DE</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 14, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1029&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1029&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-75.54976231292901</longitude>
-				<latitude>39.73913422949661</latitude>
-				<altitude>1776.548282247879</altitude>
-				<heading>17.48459514358092</heading>
-				<tilt>12.8911936817842</tilt>
-				<roll>-1.733273051921338</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-75.54892133067295,39.74222239483554,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Washington, DC</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 15, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1031&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1031&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-77.03346261533794</longitude>
-				<latitude>38.89015419932064</latitude>
-				<altitude>957.8588790765997</altitude>
-				<heading>17.01386853650938</heading>
-				<tilt>17.49397110855878</tilt>
-				<roll>-1.289607462013245</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-77.0336175396705,38.89210205641069,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Cleveland, OH</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 19, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-81.68384480176839</longitude>
-				<latitude>41.49583855830606</latitude>
-				<altitude>4972.020794499863</altitude>
-				<heading>10.687564404814</heading>
-				<tilt>4.876749164966005</tilt>
-				<roll>-4.577085006732694</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-81.690106681815,41.50391387488386,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Atlanta, GA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 27, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-84.16545907918183</longitude>
-				<latitude>33.82075140699086</latitude>
-				<altitude>13081.83519117149</altitude>
-				<heading>2.972950783967909</heading>
-				<tilt>2.114143647737734</tilt>
-				<roll>-10.63625087332732</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-84.13797065543469,33.81103637440751,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>New Orleans, LA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 29, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1043&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1043&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-90.06042219252858</longitude>
-				<latitude>29.95516159865063</latitude>
-				<altitude>864.9456070541943</altitude>
-				<heading>9.032211365723386</heading>
-				<tilt>14.31047741940593</tilt>
-				<roll>-1.587716552358581</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-90.06206380895944,29.95755157156158,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Baton Rouge, LA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 30, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1043&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1043&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-91.19024927016439</longitude>
-				<latitude>30.45411200075411</latitude>
-				<altitude>1049.34217172711</altitude>
-				<heading>8.256400238254811</heading>
-				<tilt>12.81831765853263</tilt>
-				<roll>-1.765354732597497</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-91.18731290537659,30.45638726729767,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Little Rock, AR</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: July 1, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1044&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1044&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-92.29053983457756</longitude>
-				<latitude>34.74398716411081</latitude>
-				<altitude>1627.586658752515</altitude>
-				<heading>7.936490986678938</heading>
-				<tilt>15.09833521578808</tilt>
-				<roll>-1.500460049525396</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-92.28788346774346,34.74642661898553,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Chicago, IL</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: July 4, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-87.62641580662915</longitude>
-				<latitude>41.87252077601329</latitude>
-				<altitude>1136.135669954424</altitude>
-				<heading>10.3920045085681</heading>
-				<tilt>12.28323711083538</tilt>
-				<roll>-1.831270622041715</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-87.62429272412543,41.87569809398538,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Milwaukee, WI</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: July 6, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1047&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1047&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-87.89577897364315</longitude>
-				<latitude>43.03936287080268</latitude>
-				<altitude>2155.832913359303</altitude>
-				<heading>9.791769514892193</heading>
-				<tilt>10.04602286662783</tilt>
-				<roll>-2.235865331210829</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-87.89761452717183,43.03975853738486,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Duluth, MN</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: July 8, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1049&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1049&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-92.09186284526913</longitude>
-				<latitude>46.78224533973911</latitude>
-				<altitude>3292.357955646733</altitude>
-				<heading>7.074984817415262</heading>
-				<tilt>11.13757269637052</tilt>
-				<roll>-2.025315569780777</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-92.0981492516751,46.786977379827,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Deadwood, SD</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: July 13, 2015
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1052&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1052&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/Calendar?id=101021&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101021&view=Detail
 </a>]]></description>
 			<Camera>
 				<longitude>-103.7249731019477</longitude>
@@ -442,33 +134,11 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1052&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Jackson, WY</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: July 20, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1053&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1053&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-110.7605225259776</longitude>
-				<latitude>43.47499018102617</latitude>
-				<altitude>1158.881841521533</altitude>
-				<heading>-4.862427771208838</heading>
-				<tilt>23.56942459730474</tilt>
-				<roll>-0.9798689336329556</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-110.7623770529262,43.47601061114143,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Cooke City, MT</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: July 22, 2015
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1054&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1054&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/Calendar?id=101081&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101081&view=Detail
 </a>]]></description>
 			<Camera>
 				<longitude>-109.9345574835396</longitude>
@@ -486,77 +156,11 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1054&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Salt Lake City, UT</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: July 26, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1056&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1056&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-111.8867566053351</longitude>
-				<latitude>40.77281539530023</latitude>
-				<altitude>926.0646467273438</altitude>
-				<heading>-5.690901903191175</heading>
-				<tilt>22.92692897207157</tilt>
-				<roll>-0.9745542311899514</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-111.8883915408335,40.77596942919254,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Aspen, CO</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 1, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-106.8214146562145</longitude>
-				<latitude>39.18460380125091</latitude>
-				<altitude>2277.269016043002</altitude>
-				<heading>-2.449985244138202</heading>
-				<tilt>22.63946712489067</tilt>
-				<roll>-0.9883759940592591</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-106.8181631166193,39.18658795073251,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Denver, CO</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 2, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-104.990872512384</longitude>
-				<latitude>39.74363475778785</latitude>
-				<altitude>954.6379784050255</altitude>
-				<heading>-1.269954578294138</heading>
-				<tilt>23.20317610603896</tilt>
-				<roll>-0.9582293357933707</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-104.9918352013209,39.74679216992354,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Dodge City, KS</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: August 4, 2015
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1059&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1059&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/Calendar?id=101061&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101061&view=Detail
 </a>]]></description>
 			<Camera>
 				<longitude>-100.0223547637309</longitude>
@@ -578,7 +182,7 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1059&fr_id=1440&pg=company"
 			<visibility>0</visibility>
 			<description><![CDATA[Date: August 7, 2015
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1061&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1061&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/Calendar?id=101041&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101041&view=Detail
 </a>]]></description>
 			<Camera>
 				<longitude>-105.5702147280579</longitude>
@@ -596,55 +200,11 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1061&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Roswell, NM</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 8, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1061&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1061&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-104.5223880506932</longitude>
-				<latitude>33.39078675406741</latitude>
-				<altitude>1336.295418086584</altitude>
-				<heading>-1.029789205669153</heading>
-				<tilt>19.01650272304718</tilt>
-				<roll>-1.149545812778829</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-104.5227968870677,33.39421494808055,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Phoenix, AZ</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 12, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-112.0938271860102</longitude>
-				<latitude>33.44511121378482</latitude>
-				<altitude>1035.030696738996</altitude>
-				<heading>-5.140627886846145</heading>
-				<tilt>18.01873876849188</tilt>
-				<roll>-1.227749771029516</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-112.0957387842481,33.44812190315133,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Sedona, AZ</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: August 13, 2015
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/Calendar?id=101082&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101082&view=Detail
 </a>]]></description>
 			<Camera>
 				<longitude>-111.7613247244969</longitude>
@@ -666,7 +226,7 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company"
 			<visibility>0</visibility>
 			<description><![CDATA[Date: August 15, 2015
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/Calendar?id=101083&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101083&view=Detail
 </a>]]></description>
 			<Camera>
 				<longitude>-112.1422442100289</longitude>
@@ -681,226 +241,6 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1021&fr_id=1440&pg=company"
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-112.1405911700169,36.05698717002535,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Las Vegas, NV</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 18, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1064&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1064&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-115.1719193889557</longitude>
-				<latitude>36.10302272026573</latitude>
-				<altitude>3450.274886078029</altitude>
-				<heading>-8.76499857997786</heading>
-				<tilt>7.417866222623068</tilt>
-				<roll>-2.963933221348745</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-115.1730249583697,36.11275274050455,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Lone Pine, CA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 23, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-118.0642288835318</longitude>
-				<latitude>36.60139562290884</latitude>
-				<altitude>1901.301283162529</altitude>
-				<heading>-11.14943329332792</heading>
-				<tilt>6.028039453797683</tilt>
-				<roll>-3.652273469879017</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-118.0630112326593,36.60491269115973,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Santa Cruz, CA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 26, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-122.0157509799145</longitude>
-				<latitude>36.95920481303965</latitude>
-				<altitude>2575.097599266246</altitude>
-				<heading>-12.92136932934962</heading>
-				<tilt>7.208347960689745</tilt>
-				<roll>-3.054138684381851</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0238334067917,36.96279218094045,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>San Francisco, CA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 28, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-122.416369463011</longitude>
-				<latitude>37.79331372639133</latitude>
-				<altitude>5526.428434227916</altitude>
-				<heading>-13.39390283603749</heading>
-				<tilt>6.710591616233041</tilt>
-				<roll>-3.280066557566232</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.4068581659258,37.79791085100673,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Kendall Jackson Vineyards</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 29, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-122.7699664302025</longitude>
-				<latitude>38.50204584164078</latitude>
-				<altitude>1271.363955240958</altitude>
-				<heading>-12.70923575481223</heading>
-				<tilt>9.267709632368099</tilt>
-				<roll>-2.375877387548726</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.7716923321719,38.50588915499647,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Eugene, OR</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 30, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-123.0667500505568</longitude>
-				<latitude>44.04134851195953</latitude>
-				<altitude>834.0311825483021</altitude>
-				<heading>-11.76854029571106</heading>
-				<tilt>17.54316202015731</tilt>
-				<roll>-1.270783693265742</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-123.0697393970831,44.04331056112751,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Portland, OR</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: September 1, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-122.6781347987579</longitude>
-				<latitude>45.5143316293827</latitude>
-				<altitude>2098.868135235668</altitude>
-				<heading>-14.00452294474539</heading>
-				<tilt>5.893081032853019</tilt>
-				<roll>-3.736094713121187</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.6762682969319,45.51072790833113,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Timberline Lodge at Mt. Hood</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: September 2, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1065&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-121.7096358000719</longitude>
-				<latitude>45.32576285042633</latitude>
-				<altitude>612.0304870386947</altitude>
-				<heading>-10.06183785046212</heading>
-				<tilt>39.94387195429736</tilt>
-				<roll>-0.5912496023056317</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-121.7112547557086,45.33109770038207,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Seattle, WA</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: September 9, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1066&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1066&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-122.3327702195493</longitude>
-				<latitude>47.59885955917086</latitude>
-				<altitude>1985.031880575706</altitude>
-				<heading>-11.8165734250704</heading>
-				<tilt>12.2468835152902</tilt>
-				<roll>-1.787492044653934</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.3343260078889,47.60503620472585,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Victoria, BC</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: September 11, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company
-</a>]]></description>
-			<Camera>
-				<longitude>-123.3703792968093</longitude>
-				<latitude>48.41808704814888</latitude>
-				<altitude>2004.913799598153</altitude>
-				<heading>-12.42650180465069</heading>
-				<tilt>13.4197532803207</tilt>
-				<roll>-1.640950217906926</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-123.369825203315,48.42069753632369,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
