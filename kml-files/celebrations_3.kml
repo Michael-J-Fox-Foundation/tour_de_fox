@@ -244,28 +244,72 @@ href="http://www2.michaeljfox.org/site/Calendar?id=101083&view=Detail">http://ww
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Vancouver, BC</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: September 12, 2015
+		    <name>Seattle, WA</name>
+		    <visibility>0</visibility>
+		    <description><![CDATA[Date: September 9, 2015
+<a
+href="http://www2.michaeljfox.org/site/Calendar?id=101101&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101101&view=Detail
+</a>]]></description>
+		    <Camera>
+			    <longitude>-122.3230393718142</longitude>
+			    <latitude>47.60815284233078</latitude>
+			    <altitude>1891.465866724834</altitude>
+			    <heading>-9.200914584108691</heading>
+			    <tilt>4.101764476210419</tilt>
+			    <roll>-5.105599178250066</roll>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#m_ylw-pushpin1</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-122.3210563947033,47.61379696048876,0</coordinates>
+		    </Point>
+	    </Placemark>
+	    <Placemark>
+		    <name>Victoria, BC</name>
+		    <visibility>0</visibility>
+		    <description><![CDATA[Date: September 11, 2015
+<a
+href="http://www2.michaeljfox.org/site/Calendar?id=101121&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101121&view=Detail
+</a>]]></description>
+		    <Camera>
+			    <longitude>-123.3643746095002</longitude>
+			    <latitude>48.42073434167077</latitude>
+			    <altitude>1406.631089159361</altitude>
+			    <heading>-8.277911775125977</heading>
+			    <tilt>15.76083953570375</tilt>
+			    <roll>-1.14601290226894</roll>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#m_ylw-pushpin1</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-123.3654736622214,48.42330955441091,0</coordinates>
+		    </Point>
+	    </Placemark>
+	    <Placemark>
+		    <name>Vancouver, BC</name>
+		    <visibility>0</visibility>
+		    <description><![CDATA[Date: September 12, 2015
 <a
 href="http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company
 </a>]]></description>
-			<Camera>
-				<longitude>-123.110982501332</longitude>
-				<latitude>49.28216457884818</latitude>
-				<altitude>746.7321699543037</altitude>
-				<heading>-11.86337931457976</heading>
-				<tilt>17.30342120588477</tilt>
-				<roll>-1.279216286619484</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-123.1120280238618,49.28468843676801,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
+		    <Camera>
+			    <longitude>-123.110982501332</longitude>
+			    <latitude>49.28216457884818</latitude>
+			    <altitude>746.7321699543037</altitude>
+			    <heading>-11.86337931457976</heading>
+			    <tilt>17.30342120588477</tilt>
+			    <roll>-1.279216286619484</roll>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#m_ylw-pushpin1</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-123.1120280238618,49.28468843676801,0</coordinates>
+		    </Point>
+	    </Placemark>
+	    <Placemark>
 			<name>New York, NY</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: June 2, 2015
