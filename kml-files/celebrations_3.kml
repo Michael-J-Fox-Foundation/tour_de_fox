@@ -112,6 +112,50 @@ href="http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail">	http://w
 			</Point>
 		</Placemark>
 		<Placemark>
+			<name>Cleveland, OH</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 19, 2015
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-81.68384480176839</longitude>
+				<latitude>41.49583855830606</latitude>
+				<altitude>4972.020794499863</altitude>
+				<heading>10.687564404814</heading>
+				<tilt>4.876749164966005</tilt>
+				<roll>-4.577085006732694</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-81.690106681815,41.50391387488386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Atlanta, GA</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 27, 2015
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-84.16545907918183</longitude>
+				<latitude>33.82075140699086</latitude>
+				<altitude>13081.83519117149</altitude>
+				<heading>2.972950783967909</heading>
+				<tilt>2.114143647737734</tilt>
+				<roll>-10.63625087332732</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-84.13797065543469,33.81103637440751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>Deadwood, SD</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: July 13, 2015
@@ -153,6 +197,50 @@ href="http://www2.michaeljfox.org/site/Calendar?id=101081&view=Detail">http://ww
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-109.9344747309586,45.0195118324215,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Salt Lake City, UT</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: July 27, 2015
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1056&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1056&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-111.8867566053351</longitude>
+				<latitude>40.77281539530023</latitude>
+				<altitude>926.0646467273438</altitude>
+				<heading>-5.690901903191175</heading>
+				<tilt>22.92692897207157</tilt>
+				<roll>-0.9745542311899514</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-111.8883915408335,40.77596942919254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Denver, CO</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: August 2, 2015
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company
+</a>]]></description>
+			<Camera>
+				<longitude>-104.990872512384</longitude>
+				<latitude>39.74363475778785</latitude>
+				<altitude>954.6379784050255</altitude>
+				<heading>-1.269954578294138</heading>
+				<tilt>23.20317610603896</tilt>
+				<roll>-0.9582293357933707</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-104.9918352013209,39.74679216992354,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
