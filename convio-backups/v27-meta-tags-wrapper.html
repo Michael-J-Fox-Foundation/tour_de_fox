@@ -1,0 +1,112 @@
+<!-- v27 meta tags -->
+<link rel="stylesheet" href="../css/RFI/convio.css" type="text/css" />
+<link rel="stylesheet" href="../css/RFI/mjff_clean.css" type="text/css" />
+<link rel="stylesheet" href="../css/zocial_teamfox.css" type="text/css" />
+<link rel="stylesheet" href="../css/RFI/mjff_custom.css" type="text/css" />
+<link rel="stylesheet" href="../css/jquery.fancybox.css" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="../js/jquery.fancybox-media.js"></script>
+
+<!-- FANCYBOX VIDEO -->
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    jQuery('.fancybox-media').fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none',
+      helpers : {
+        media : {}
+      }
+    });
+
+    jQuery(".fancybox").fancybox({
+      maxWidth  : 800,
+      maxHeight : 600,
+      fitToView : false,
+      autoSize  : true,
+      closeClick  : false,
+      openEffect  : 'none',
+      closeEffect : 'none'
+    });
+  });
+</script>
+<script type="text/javascript" src="../js/mjff.js"></script>
+<script type="text/javascript" src="../js/print.js"></script>
+<script src="../bootstrap/js/jquery.popupWindow.js"></script>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : '160939607355547', // App ID from the App Dashboard
+      channelUrl : 'https://www.michaeljfox.org/channel.html', // Channel File for x-domain communication
+      status     : true, // check the login status upon init?
+      cookie     : true, // set sessions cookies to allow your server to access the session?
+      xfbml      : true  // parse XFBML tags on this page?
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+
+  };
+
+  // Load the SDK's source Asynchronously
+  // Note that the debug version is being actively developed and might 
+  // contain some type checks that are overly strict. 
+  // Please report such bugs using the bugs tool.
+  (function(d, debug){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document, /*debug*/ false));
+</script>
+
+
+<style>
+ul.dropdown li a { padding: 16px 12px; }
+.menu a:hover {border-bottom:none; text-decoration:underline;}
+.menu a.lc_lighterLink:link {color:#395C70;display:block; margin-bottom:10px;}
+.menu a.lc_lighterLink:hover {color:#395C70; background:none; border-bottom:none; text-decoration:underline}
+
+.trPage .main{
+margin: 0;
+}
+
+.main img{
+margin: 12px 0;
+}
+
+.thermometerWide .text {
+width:280px;
+}
+
+p.cstmTitle{
+font-size: 1.8em;
+text-transform: uppercase;
+}
+
+h2{
+margin-top: 1em;
+}
+</style>
+
+<script>
+
+// GA Basic Snippet:
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1794727-6', 'auto');
+  ga('send', 'pageview');
+
+jQuery(document).ready(function(){
+jQuery('[id^="frStatus"]:empty').hide();
+jQuery("h2.cstmTitle").hide();
+});
+
+</script>
+<!-- tracking pixel for MediaCrossing -->
+<script src="https://tags.crwdcntrl.net/c/3939/cc_af.js"></script>
+[[S51:gem_personal_page_init]]
