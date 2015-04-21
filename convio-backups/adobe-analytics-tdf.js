@@ -256,7 +256,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>donation form" + getUrlVar('4060.donation') + ">" + getUrlVar('FR_ID') + ">" + getUrlVar('PROXY_ID'),
+        pageName: "tdf tr>donation form>" + getUrlVar('4060.donation') + ">" + getUrlVar('FR_ID') + ">" + getUrlVar('PROXY_ID'),
         destinationURL: window.location.href
       },
       category:{
