@@ -184,12 +184,12 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>state>" + jQuery("p.cstmTitle").text(),
+        pageName: "",
         destinationURL: window.location.href
       },
       category:{
-        primaryCategory:"state",
-        subCategory1: jQuery("p.cstmTitle").text(),
+        primaryCategory: "state",
+        subCategory1: "",
         subCategory2: "n/a",
         subCategory3: "n/a" 
       },
@@ -203,6 +203,11 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } 
     }]
   }
+  jQuery(document).ready(function() {
+    var stateName = jQuery("p.cstmTitle").text().toLowerCase()
+    digitalData.page.pageInfo.pageName = "tdf tr>state>" + stateName;
+    digitalData.page.category.subCategory1 = stateName;
+  });
 } else if (getUrlVar('pg') === 'pfind') {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -348,19 +353,16 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     }]
   }
 } else if (getUrlVar('view') === 'Detail') {
-  var str = jQuery("#lo-address-61-62-63").text();
-  var matches = str.match(/\,(.*)/);
-  var stateZip = trim(matches[1].toLowerCase());
   var digitalData = digitalData || {}; 
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>event>" + stateZip,
+        pageName: "",
         destinationURL: window.location.href
       },
       category:{
-        primaryCategory:"event",
-        subCategory1: stateZip,
+        primaryCategory: "event",
+        subCategory1: "",
         subCategory2: "n/a",
         subCategory3: "n/a" 
       },
@@ -374,20 +376,24 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } 
     }]
   }
+  jQuery(document).ready(function() {
+    var str = jQuery("#lo-address-61-62-63").text();
+    var matches = str.match(/\,(.*)/);
+    var stateZip = trim(matches[1].toLowerCase());
+    digitalData.page.pageInfo.pageName = "tdf tr>event>" + stateZip;
+    digitalData.page.category.subCategory1 = stateZip;
+  }); 
 } else if ((window.location.pathname.indexOf("/site/Calendar") === 0) && (!getUrlVar('view'))) {
-  var str = jQuery("#lo-address-61-62-63").text();
-  var matches = str.match(/\,(.*)/);
-  var stateZip = trim(matches[1].toLowerCase());  
   var digitalData = digitalData || {}; 
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>event rsvp form>" + stateZip,
+        pageName: "",
         destinationURL: window.location.href
       },
       category:{
         primaryCategory: "event rsvp form",
-        subCategory1: stateZip,
+        subCategory1: "",
         subCategory2: "n/a",
         subCategory3: "n/a"
       },
@@ -401,6 +407,13 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } 
     }]
   }
+  jQuery(document).ready(function() {
+    var str = jQuery("#lo-address-61-62-63").text();
+    var matches = str.match(/\,(.*)/);
+    var stateZip = trim(matches[1].toLowerCase());
+    digitalData.page.pageInfo.pageName = "tdf tr>event>" + stateZip;
+    digitalData.page.category.subCategory1 = stateZip;
+  });
 } else {
   var digitalData = digitalData || {}; 
   digitalData = {
