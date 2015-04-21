@@ -35,6 +35,54 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } 
     }]
   }
+} else if ((getUrlVar('sid') === '1210') && (getUrlVar('pg') === 'informational')) {
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>ways to get involved",
+        destinationURL: window.location.href
+      },
+      category:{
+        primaryCategory:"ways to get involved",
+        subCategory1: "n/a",
+        subCategory2: "n/a",
+        subCategory3: "n/a" 
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[{
+      eventInfo:{
+        eventAction:"pageView"
+      } 
+    }]
+  }
+} else if ((getUrlVar('sid') === '1190') && (getUrlVar('pg') === 'informational')) {
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>tdf extreme events",
+        destinationURL: window.location.href
+      },
+      category:{
+        primaryCategory:"tdf extreme events",
+        subCategory1: "n/a",
+        subCategory2: "n/a",
+        subCategory3: "n/a" 
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[{
+      eventInfo:{
+        eventAction:"pageView"
+      } 
+    }]
+  }
 } else if (getUrlVar('sid') === '1130') {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -107,7 +155,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } 
     }]
   }
-} else if (getUrlVar('pg') === 'company') {
+} else if ((getUrlVar('pg') === 'company') && (getUrlVar('company_id') === '1090')) {
   var digitalData = digitalData || {}; 
   digitalData = {
     page:{
@@ -118,6 +166,30 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       category:{
         primaryCategory:"donate landing page",
         subCategory1: "n/a",
+        subCategory2: "n/a",
+        subCategory3: "n/a" 
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[{
+      eventInfo:{
+        eventAction:"pageView"
+      } 
+    }]
+  }
+} else if ((getUrlVar('pg') === 'company') && (getUrlVar('company_id') != '1090')) {
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>state>" + jQuery("p.cstmTitle").text(),
+        destinationURL: window.location.href
+      },
+      category:{
+        primaryCategory:"state",
+        subCategory1: jQuery("p.cstmTitle").text(),
         subCategory2: "n/a",
         subCategory3: "n/a" 
       },
@@ -275,19 +347,73 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } 
     }]
   }
+} else if (getUrlVar('view') === 'Detail') {
+  var str = jQuery("#lo-address-61-62-63").text();
+  var matches = str.match(/\,(.*)/);
+  var stateZip = trim(matches[1].toLowerCase());
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>event>" + stateZip,
+        destinationURL: window.location.href
+      },
+      category:{
+        primaryCategory:"event",
+        subCategory1: stateZip,
+        subCategory2: "n/a",
+        subCategory3: "n/a" 
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[{
+      eventInfo:{
+        eventAction:"pageView"
+      } 
+    }]
+  }
+} else if ((window.location.pathname.indexOf("/site/Calendar") === 0) && (!getUrlVar('view'))) {
+  var str = jQuery("#lo-address-61-62-63").text();
+  var matches = str.match(/\,(.*)/);
+  var stateZip = trim(matches[1].toLowerCase());  
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>event rsvp form>" + stateZip,
+        destinationURL: window.location.href
+      },
+      category:{
+        primaryCategory: "event rsvp form",
+        subCategory1: stateZip,
+        subCategory2: "n/a",
+        subCategory3: "n/a"
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[{
+      eventInfo:{
+        eventAction:"pageView"
+      } 
+    }]
+  }
 } else {
   var digitalData = digitalData || {}; 
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>registration>" + getUrlVar('fr_id') + ">" + getUrlVar('pg'),
+        pageName: "",
         destinationURL: window.location.href
       },
       category:{
-        primaryCategory: "registration",
-        subCategory1: getUrlVar('fr_id'),
-        subCategory2: getUrlVar('pg'),
-        subCategory3: "n/a"
+        primaryCategory: "",
+        subCategory1: "",
+        subCategory2: "",
+        subCategory3: ""
       },
       attributes:{
         site:"tdf tr"
