@@ -288,31 +288,9 @@ href="http://www2.michaeljfox.org/site/Calendar?id=101041&view=Detail">http://ww
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Sedona, AZ</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: August 13, 2015
-<a
-href="http://www2.michaeljfox.org/site/Calendar?id=101082&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101082&view=Detail
-</a>]]></description>
-			<Camera>
-				<longitude>-111.7613247244969</longitude>
-				<latitude>34.86641624213775</latitude>
-				<altitude>1401.652257522938</altitude>
-				<heading>-4.799720132389161</heading>
-				<tilt>20.83930547842654</tilt>
-				<roll>-1.068083083918386</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-111.759330300855,34.87151671215368,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>Grand Canyon Village, AZ</name>
 			<visibility>0</visibility>
-			<description><![CDATA[Date: August 15, 2015
+			<description><![CDATA[Date: August 14, 2015
 <a
 href="http://www2.michaeljfox.org/site/Calendar?id=101083&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101083&view=Detail
 </a>]]></description>

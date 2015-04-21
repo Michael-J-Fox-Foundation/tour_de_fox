@@ -36,6 +36,31 @@
 		<name>Ride Icons</name>
 		<visibility>0</visibility>
 		<Placemark>
+			<name>Brandywine Valley Ride</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 14, 2015
+Wilmington, DE
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/DEride.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR/Athletic/TeamFox?team_id=12970&pg=team&fr_id=1440">http://www2.michaeljfox.org/site/TR/Athletic/TeamFox?team_id=12970&pg=team&fr_id=1440
+</a>]]></description>
+			<Camera>
+			    <longitude>-75.59874252976913</longitude>
+			    <latitude>39.77791575276095</latitude>
+			    <altitude>244.8338208384938</altitude>
+			    <heading>0.8456114590461714</heading>
+			    <tilt>19.22386675990819</tilt>
+			    <roll>0.8327600931411111</roll>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#msn_ylw-pushpin</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-75.59833016727805,39.77894259953413,0</coordinates>
+		    </Point>
+	    </Placemark>
+		<Placemark>
 			<name>Lake Erie Shoreline Ride</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: June 20, 2015
@@ -188,7 +213,7 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1057&fr_id=1440&pg=company"
 		<Placemark>
 			<name>Death Valley Ride</name>
 			<visibility>0</visibility>
-			<description><![CDATA[Date: August 19-20, 2015
+			<description><![CDATA[Date: August 17-18, 2015
 Badwater Basin - Whitney Portal
 <img
 src="http://www2.michaeljfox.org/images/content/pagebuilder/DV2.jpg"/>
@@ -211,14 +236,14 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>California Wine Country Ride</name>
+			<name>TDF Ride - Wine Country Edition</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: August 29, 2015
-Kendall Jackson Vineyards
+Santa Rosa, CA
 <img
-src="http://www2.michaeljfox.org/images/content/pagebuilder/Wine_Country.jpg"/>
+src="http://www2.michaeljfox.org/images/content/pagebuilder/wine_Country.jpg"/>
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1063&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/TR?fr_id=1820&pg=entry">http://www2.michaeljfox.org/site/TR?fr_id=1820&pg=entry
 </a>]]></description>
 			<Camera>
 				<longitude>-122.7704176099956</longitude>
