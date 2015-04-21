@@ -274,7 +274,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         eventAction:"pageView"
       } 
     }]
-  }   
+  }
 } else {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -285,9 +285,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       },
       category:{
         primaryCategory: "registration",
-        subCategory1:,
-        subCategory2: getUrlVar('fr_id'),
-        subCategory3: getUrlVar('pg')
+        subCategory1: getUrlVar('fr_id'),
+        subCategory2: getUrlVar('pg'),
+        subCategory3: "n/a"
       },
       attributes:{
         site:"tdf tr"
