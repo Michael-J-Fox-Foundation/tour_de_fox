@@ -96,7 +96,7 @@
 <a
 href="http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail">	http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail
 </a>]]></description>
-			<LookAt>
+			<Camera>
 				<longitude>-68.70787092595701</longitude>
 				<latitude>45.65777458916332</latitude>
 				<altitude>0</altitude>
@@ -104,7 +104,7 @@ href="http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail">	http://w
 				<tilt>21.92432808089067</tilt>
 				<range>710.4240015123241</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
+			</Camera>
 			<styleUrl>#msn_ylw-pushpin0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -112,27 +112,28 @@ href="http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail">	http://w
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Cleveland, OH</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 19, 2015
+		    <name>InMotion Wellness Center</name>
+		    <visibility>0</visibility>
+		    <description><![CDATA[
+Warrensville Heights, OH
+Date: June 19, 2015
 <a
 href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company
 </a>]]></description>
-			<Camera>
-				<longitude>-81.68384480176839</longitude>
-				<latitude>41.49583855830606</latitude>
-				<altitude>4972.020794499863</altitude>
-				<heading>10.687564404814</heading>
-				<tilt>4.876749164966005</tilt>
-				<roll>-4.577085006732694</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-81.690106681815,41.50391387488386,0</coordinates>
-			</Point>
-		</Placemark>
+		    <Camera>
+			    <latitude>41.42159361026175</latitude>
+			    <altitude>1879.909004430991</altitude>
+			    <heading>2.285910836476413</heading>
+			    <tilt>6.064127190965244</tilt>
+			    <roll>1.717814733533917</roll>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#msn_ylw-pushpin00</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-81.50147902919372,41.42435709980915,0</coordinates>
+		    </Point>
+	    </Placemark>
 		<Placemark>
 			<name>Atlanta, GA</name>
 			<visibility>0</visibility>

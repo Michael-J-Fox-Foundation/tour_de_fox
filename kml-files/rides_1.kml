@@ -61,30 +61,30 @@ href="http://www2.michaeljfox.org/site/TR/Athletic/TeamFox?team_id=12970&pg=team
 		    </Point>
 	    </Placemark>
 		<Placemark>
-			<name>Lake Erie Shoreline Ride</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 20, 2015
-Cleveland, OH
+		    <name>Cuyahoga Valley Ride</name>
+		    <visibility>0</visibility>
+		    <description><![CDATA[Date: June 20, 2015
+Cuyahoga Valley National Park, OH
 <img
-src="http://www2.michaeljfox.org/images/content/pagebuilder/Lake_Erie.jpg"/>
+src="http://www2.michaeljfox.org/images/content/pagebuilder/CVNP.jpg"/>
 <a
 href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company
 </a>]]></description>
-			<Camera>
-				<longitude>-81.69423477404924</longitude>
-				<latitude>41.50610031430947</latitude>
-				<altitude>585.7073725553541</altitude>
-				<heading>16.4731535062803</heading>
-				<tilt>24.82004534081921</tilt>
-				<roll>-0.6160163983291563</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-81.69398392064548,41.50830152871152,0</coordinates>
-			</Point>
-		</Placemark>
+		    <Camera>
+			    <longitude>-81.61725857622146</longitude>
+			    <latitude>41.37001867639894</latitude>
+			    <altitude>1470.132204604802</altitude>
+			    <heading>1.355363524945135</heading>
+			    <tilt>12.15266748661718</tilt>
+			    <roll>0.8628150626635314</roll>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#msn_ylw-pushpin</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-81.61335172260363,41.37260908202187,0</coordinates>
+		    </Point>
+	    </Placemark>
 		<Placemark>
 			<name>Blue Ridge Parkway Ride</name>
 			<visibility>0</visibility>
