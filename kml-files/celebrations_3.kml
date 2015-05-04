@@ -102,7 +102,6 @@ href="http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail">	http://w
 				<altitude>0</altitude>
 				<heading>15.12779819510964</heading>
 				<tilt>21.92432808089067</tilt>
-				<range>710.4240015123241</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
 			<styleUrl>#msn_ylw-pushpin0</styleUrl>
@@ -112,28 +111,27 @@ href="http://www2.michaeljfox.org/site/Calendar?id=101001&view=Detail">	http://w
 			</Point>
 		</Placemark>
 		<Placemark>
-		    <name>InMotion Wellness Center</name>
-		    <visibility>0</visibility>
-		    <description><![CDATA[
-Warrensville Heights, OH
-Date: June 19, 2015
+			<name>InMotion Wellness Center</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Date: June 19, 2015
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1033&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/Calendar?id=101021&view=Detail">http://www2.michaeljfox.org/site/Calendar?id=101021&view=Detail
 </a>]]></description>
-		    <Camera>
+			<Camera>
+				<longitude>-81.51261803727479</longitude>
 			    <latitude>41.42159361026175</latitude>
 			    <altitude>1879.909004430991</altitude>
 			    <heading>2.285910836476413</heading>
 			    <tilt>6.064127190965244</tilt>
 			    <roll>1.717814733533917</roll>
 			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		    </Camera>
-		    <styleUrl>#msn_ylw-pushpin00</styleUrl>
-		    <Point>
-			    <gx:drawOrder>1</gx:drawOrder>
-			    <coordinates>-81.50147902919372,41.42435709980915,0</coordinates>
-		    </Point>
-	    </Placemark>
+			</Camera>
+			<styleUrl>#msn_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-103.7289559559851,44.37709711323333,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark>
 			<name>Atlanta, GA</name>
 			<visibility>0</visibility>
