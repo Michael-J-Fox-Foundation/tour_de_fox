@@ -1,0 +1,231 @@
+<style type="text/css"><!--
+.key{
+text-align: center;
+position: relative;
+top: -4px;
+background-color: #7e7e7e;
+width: 885px;
+height: 43px;
+}
+
+.athleticEventMap,
+.celebrationEventMap{
+background-color: #ededed;
+padding: 20px;
+box-shadow: 7px -4px 14px -6px grey;
+}
+span.celebrationEvent{
+position: relative;
+left: 56px;
+}
+.mapList span.selectedMap {
+background-color: #EDEDED;
+box-shadow: 4px -3px 10px -5px grey;
+}
+h3.mapList{
+padding: 0;
+background-color: #f6f6f6;
+}
+.mapList span {
+display: inline-block;
+text-align: center;
+padding: 10px 0;
+cursor: pointer;
+width: 440px;
+}
+
+.questions{
+background-color: #ededed;
+padding: 15px 0px;
+text-align: center;
+color: #f77f00;
+}
+.mainContent{
+padding: 0px;
+text-align: left;
+}
+p{
+font-size: 16px;
+}
+.herospace{
+position:relative;
+width: 976px;
+top: -20px;
+right: 20px;
+}
+.herospace h1{
+color: #fff;
+position: absolute;
+left: 26px;
+top: 40px;
+text-align: left;
+font-size: 3em;
+}
+.TFtransBox{
+position:absolute;
+left:0;
+top:0;
+width: 330px;
+height: 300px;
+background-color: #f77f00;
+opacity: 0.8;
+filter: alpha(opacity=80);
+}
+.section{
+padding: 11px;
+margin: 20px 0px;
+background: #ededed;
+text-align: center;
+color: #f77f00;
+}
+#progHolder {
+  height: 44px;
+}
+#progBar {
+  background: url(https://www.michaeljfox.org/thinkableLanding/images/progress_bg.png);
+  display: block;
+  height: 15px;
+  overflow: hidden;
+  margin-right: 16px;
+}
+#progBar .progline {
+  background: none repeat scroll 0 0 #fda633;
+  display: block;
+  height: 15px;
+}
+#progBar .progline .end {
+  background: url(https://www.michaeljfox.org/thinkableLanding/images/progress_bar_bg.png) no-repeat;
+  display: block;
+  float: right;
+  height: 15px;
+  margin-right: -20px;
+  width: 20px;
+}
+.prog-end {
+  float: right;
+  position: relative;
+  bottom: 68px;
+  right: 31px;
+}
+.CTA-row {
+  margin-right: -15px;
+  margin-left: -15px;
+  overflow: hidden;
+}
+.CTA-row:before,
+.CTA-row:after {
+  display: table;
+  content: " ";
+}
+.CTA-row:after {
+  clear: both;
+}
+.col-third {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 33.33333333333333%;
+  display: table-cell; 
+}
+--></style>
+<div class="mainContent">
+<div class="herospace">
+<div><a class="fancybox-media" href="https://www.youtube.com/watch?v=-NbytdpjT4g"><img src="https://www.michaeljfox.org/files/Sam-TDF-Running-Play-2.jpg" border="0" alt="samBanner.jpg" width="976" height="300" /></a></div>
+<div class="TFtransBox">&nbsp;</div>
+<h1>3 months<br />
+49 peaks<br />
+14,000 miles<br />
+$1,000,000</h1>
+</div>
+<div id="progHolder">
+	<div class="sam-total" style="display: none;"></div>
+	<div class="wine-total" style="display: none;"></div>
+  <div id="progBar">
+    <span class="progline" >
+        <span class="end"></span>
+      </span>
+  </div>
+  <div class="CTA-row">
+    <h2 class="col-third">$0</h2>
+    <div class="prog-end">
+      <h2>$1,000,000</h2>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery(".sam-total").load("http://www2.michaeljfox.org/site/TR?company_id=1090&fr_id=1440&pg=company .goal:first dd:last");
+		jQuery(".wine-total").load("http://www2.michaeljfox.org/site/TR?fr_id=1820&pg=entry .goal:first dd:last");
+		
+		var checkExist = setInterval(function() {
+			if ( (jQuery(".sam-total dd").length) && (jQuery(".wine-total dd").length) ) {
+				var samTotal = parseInt(jQuery(".sam-total dd").text().replace('$', '').replace(',', ''));
+				var wineTotal = parseInt(jQuery(".wine-total dd").text().replace('$', '').replace(',', ''));
+
+				var progress = samTotal + wineTotal;
+
+				var progline = (progress / 1000000) * 100 
+				jQuery(".progline").css("width", progline+"%");
+
+				clearInterval(checkExist);
+			}
+		}, 100);
+
+	});
+</script>
+<h1>about tour de fox</h1>
+<a class="mjffButton" style="margin-right: 20px; float: right; background: none repeat scroll 0% 0% #9bba43;" href="TR?company_id=1090&amp;fr_id=1440&amp;pg=company">donate to sam</a>
+<div style="width: 70%;">
+<p><strong>Extreme</strong> adventure athlete and MJFF staff member Sam Fox will bike and hike his way across the USA &mdash; climbing the highest peak in each state &mdash; in just three months. His goal is to raise $1 million for critical Parkinson&rsquo;s research &ndash; with another $500K in matching funds.</p>
+</div>
+<a class="mjffButton" style="margin-right: 20px; float: right;" href="TR/Athletic/General?pg=complist&amp;fr_id=1440">tour schedule</a>
+<div style="width: 70%;">
+<p><strong>We're coming</strong> to your town &mdash; With stops in each of the lower 48 states the Tour de Fox aims to unite and inspire people from every corner of the Parkinson's community through passion, sweat, and determination.</p>
+</div>
+<a class="mjffButton" style="margin-right: 20px; float: right;" href="TR/Athletic/General?sid=1210&amp;fr_id=1440&amp;pg=informational">ways to get involved</a>
+<div style="width: 70%;">
+<p><strong>Join Sam</strong> for a part of the Tour! This 14,000 mile journey for Parkinson's research offers countless ways to be involved. Find your summit with Tour de Fox by biking, climbing or celebrating with Sam.</p>
+</div>
+<h1 style="margin-top: 10px;">find your summit</h1>
+<p>Explore the Tour de Fox interactive map below to see when Sam is passing through your area. Sign up to take part in an official Tour de Fox climb or bike ride or attend one of the many celebrations across the country. You can also view the tour route by dates on the the Tour Schedule page.</p>
+<!--
+<h3 class="mapList"><span class="athleticEvents selectedMap">Climb or Ride With Sam</span><span class="celebrationEvent">Celebrate with Sam</span> </h3>
+/-->
+<div class="athleticEventMap">
+<iframe style="width: 870px; height: 430px; border: 10px solid grey;" src="http://mbwenger.com/tour_de_fox/"></iframe>
+</div>
+<p>&nbsp;</p>
+<!--
+<h2 class="section">Watch the Tour de Fox Videos</h2>
+<iframe style="margin-right: 20px;" _mce_style="margin-right: 20px;" src="//www.youtube.com/embed/-lsSaNKK4gk" _mce_src="//www.youtube.com/embed/-lsSaNKK4gk" height="285" width="450" frameborder="0"></iframe>
+<iframe src="//www.youtube.com/embed/MNyAynDNtV0" _mce_src="//www.youtube.com/embed/MNyAynDNtV0" height="285" width="450" frameborder="0"></iframe> -->
+<h2 class="section">Thank you to our Sponsors</h2>
+<div style="text-align: center;">
+<p style="display: inline;"><img style="margin-left: 40px; height: 203px; margin-right: 30px;" src="../images/content/pagebuilder/100-percent-Tour-de-Fox-Match-300px.jpg" border="0" alt="100-percent-Tour-de-Fox-Match-300px.jpg" /></p>
+<p style="display: inline; margin-right: 40px; position: relative; top: -49px;"><img src="../images/content/pagebuilder/VW_DasAuto2013_3D_lowtrimmed.png" border="0" alt="VW_logo" height="162" /></p>
+<p style="display: inline; margin-right: 40px; position: relative; top: -49px;"><img src="https://www.michaeljfox.org/files/GAT13LOGO_Endurance_vert_fc_blk-400.png" border="0" alt="Gatorade" height="150" /></p>
+<p style="display: inline; margin-right: 40px; position: relative; top: -49px;"><img src="https://www.michaeljfox.org/files/Adamas.gif" border="0" alt="Adamas" height="150" /></p>
+</div>
+</div>
+<div style="clear: both;"></div>
+<div class="questions">Questions? Email <a href="mailto:tourdefox@michaeljfox.org">tourdefox@michaeljfox.org</a></div>
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function(){
+	jQuery(".celebrationEventMap").hide();
+
+	jQuery(".mapList span").click(function(){
+		jQuery(".mapList span").removeClass("selectedMap");
+		jQuery(this).addClass("selectedMap");
+
+		if(jQuery(this).hasClass('athleticEvents')){
+			jQuery(".celebrationEventMap").hide();
+			jQuery(".athleticEventMap").show();
+		} else if (jQuery(this).hasClass('celebrationEvent')){
+			jQuery(".athleticEventMap").hide();
+			jQuery(".celebrationEventMap").show();
+		}
+	})
+
+})
+// ]]></script>
