@@ -1,0 +1,53 @@
+<style type="text/css"><!--
+#fr_anonymous_gift,
+#fr_show_public_gift{
+vertical-align: middle;
+margin-left: 20px;
+}
+
+.input-container{
+margin-bottom: 10px;
+}
+
+#part_type_individual_company_selection_container,
+#part_type_additional_gift_container,
+#part_type_fundraising_goal_container{
+margin-bottom: 50px;
+}
+#fund_goal_container{
+font-size: 1.1em;
+}
+
+div#part_type_individual_company_selection_container {
+margin-top: 10px;
+}
+--></style>
+<p id="tdfxClimb" style="color: red; margin-top: 20px; font-size: 18px; text-align: left;"><span style="color: #000000;">Interested in participating in a Tour de Fox Extreme Event? <a style="color: #f77f00;" href="TR/Athletic/General?sid=1190&amp;type=fr_informational&amp;pg=informational&amp;fr_id=1440">Learn more</a></span></p>
+<p style="color: red; margin-top: 20px; font-size: 18px; text-align: left;"><span style="color: #000000;"><span>If interested in fundraising more than the $25.00 donation, you may set a fundraising goal below or continue to the next step in the process by clicking the next step. </span></span></p>
+<p style="color: red; margin-top: 20px; font-size: 18px; text-align: left;"><span style="color: #000000;"><span>If you are joining a specific event, please indicate that you will be joining Sam on a bike ride or climb, then choose the location of the event.</span></span></p>
+<p style="color: red; margin-top: 20px; font-size: 18px; text-align: left;"><span style="color: #000000;"><span>If you have any issues during the registration process, please email <a style="color: #f77f00;" href="mailto:tourdefox@michaeljfox.org" target="_top">tourdefox@michaeljfox.org</a>.</span></span></p>
+<p style="color: red; margin-top: 20px; font-size: 18px; text-align: left;"><span style="color: #000000;"><span><br /></span></span></p>
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function(){
+	jQuery("#part_type_selection_container").hide();
+	jQuery("#part_type_company_selection").prop( "checked", true );
+	jQuery("#part_type_individual_company_input_container").removeClass("hidden");
+	jQuery("#part_type_individual_company_selection_container .input-container").html("<div>Choose the primary state that you would like to fundraise for.<br /><span style="font-style:italic; font-size:0.8em;" _mce_style="font-style: italic; font-size: 0.8em;">You can still participate across multiple states</span></div>");
+	jQuery("#addl_gift_container").hide();
+	jQuery("#pt_instruction_container").hide();
+	jQuery("#fr_part_co_list :first").text("Select State");
+	jQuery("#fr_part_co_list optgroup[label='Local Companies']").attr("label","States");
+  jQuery("#part_type_individual_company_selection_container").addClass('field-required');
+  jQuery('#tdfxClimb').insertAfter(jQuery('#part_type_instruction_sub_header'));
+  jQuery('.tdfx-events').insertAfter(jQuery('#tdfxClimb'));
+  jQuery('#tdfxClimb2').insertAfter(jQuery('.tdfx-events'));
+});
+
+jQuery('select[name=fr_part_co_list]').change(function () {
+    if (jQuery(this).val() == '5') {
+        jQuery('#browserother').show();
+    } else {
+        jQuery('#browserother').hide();
+    }
+});
+// ]]></script>
