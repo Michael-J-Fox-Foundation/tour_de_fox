@@ -16,8 +16,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>home",
-        destinationURL: window.location.href
+        pageName: "tdf tr>home"
       },
       category:{
         primaryCategory:"home",
@@ -40,8 +39,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>ways to get involved",
-        destinationURL: window.location.href
+        pageName: "tdf tr>ways to get involved"
       },
       category:{
         primaryCategory:"ways to get involved",
@@ -64,8 +62,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>tdf extreme events",
-        destinationURL: window.location.href
+        pageName: "tdf tr>tdf extreme events"
       },
       category:{
         primaryCategory:"tdf extreme events",
@@ -88,8 +85,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>about sam",
-        destinationURL: window.location.href
+        pageName: "tdf tr>about sam"
       },
       category:{
         primaryCategory:"about sam",
@@ -112,8 +108,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>tour updates",
-        destinationURL: window.location.href
+        pageName: "tdf tr>tour updates"
       },
       category:{
         primaryCategory:"tour updates",
@@ -136,8 +131,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>tour schedule",
-        destinationURL: window.location.href
+        pageName: "tdf tr>tour schedule"
       },
       category:{
         primaryCategory:"tour schedule",
@@ -160,8 +154,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>donate landing page",
-        destinationURL: window.location.href
+        pageName: "tdf tr>donate landing page"
       },
       category:{
         primaryCategory:"donate landing page",
@@ -184,8 +177,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "",
-        destinationURL: window.location.href
+        pageName: ""
       },
       category:{
         primaryCategory: "state",
@@ -213,8 +205,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>participant search",
-        destinationURL: window.location.href
+        pageName: "tdf tr>participant search"
       },
       category:{
         primaryCategory:"participant search",
@@ -237,8 +228,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>registration>join the tour",
-        destinationURL: window.location.href
+        pageName: "tdf tr>registration>join the tour"
       },
       category:{
         primaryCategory:"registration",
@@ -261,8 +251,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>registration>join a team",
-        destinationURL: window.location.href
+        pageName: "tdf tr>registration>join a team"
       },
       category:{
         primaryCategory:"registration",
@@ -285,8 +274,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>registration>participation options",
-        destinationURL: window.location.href
+        pageName: "tdf tr>registration>participation options"
       },
       category:{
         primaryCategory:"registration",
@@ -309,8 +297,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>registration>contact information",
-        destinationURL: window.location.href
+        pageName: "tdf tr>registration>contact information"
       },
       category:{
         primaryCategory:"registration",
@@ -333,8 +320,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>donation form>" + getUrlVar('4060.donation') + ">" + getUrlVar('FR_ID') + ">" + getUrlVar('PROXY_ID'),
-        destinationURL: window.location.href
+        pageName: "tdf tr>donation form>" + getUrlVar('4060.donation') + ">" + getUrlVar('FR_ID') + ">" + getUrlVar('PROXY_ID')
       },
       category:{
         primaryCategory: "donation form",
@@ -357,8 +343,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "",
-        destinationURL: window.location.href
+        pageName: ""
       },
       category:{
         primaryCategory: "event",
@@ -388,8 +373,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "",
-        destinationURL: window.location.href
+        pageName: ""
       },
       category:{
         primaryCategory: "event rsvp form",
@@ -414,13 +398,36 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     digitalData.page.pageInfo.pageName = "tdf tr>event>" + stateZip;
     digitalData.page.category.subCategory1 = stateZip;
   });
+} else if ( (getUrlVar('fr_id') === '1820') && (getUrlVar('pg') === 'entry') ) {
+  // wine country homepage
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf wine country tr>home"
+      },
+      category:{
+        primaryCategory: "home",
+        subCategory1: "n/a",
+        subCategory2: "n/a",
+        subCategory3: "n/a"
+      },
+      attributes:{
+        site:"tdf wine country tr"
+      } 
+    },
+    event:[{
+      eventInfo:{
+        eventAction:"pageView"
+      } 
+    }]
+  }  
 } else {
   var digitalData = digitalData || {}; 
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "",
-        destinationURL: window.location.href
+        pageName: ""
       },
       category:{
         primaryCategory: "",
