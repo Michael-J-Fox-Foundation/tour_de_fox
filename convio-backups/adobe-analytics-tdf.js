@@ -398,30 +398,6 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     digitalData.page.pageInfo.pageName = "tdf tr>event>" + stateZip;
     digitalData.page.category.subCategory1 = stateZip;
   });
-} else if ( (getUrlVar('fr_id') === '1820') && (getUrlVar('pg') === 'entry') ) {
-  // wine country homepage
-  var digitalData = digitalData || {}; 
-  digitalData = {
-    page:{
-      pageInfo:{ 
-        pageName: "tdf wine country tr>home"
-      },
-      category:{
-        primaryCategory: "home",
-        subCategory1: "n/a",
-        subCategory2: "n/a",
-        subCategory3: "n/a"
-      },
-      attributes:{
-        site:"tdf wine country tr"
-      } 
-    },
-    event:[{
-      eventInfo:{
-        eventAction:"pageView"
-      } 
-    }]
-  }  
 } else {
   var digitalData = digitalData || {}; 
   digitalData = {
