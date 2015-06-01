@@ -36,6 +36,30 @@
 		<name>Ride Icons</name>
 		<visibility>0</visibility>
 		<Placemark>
+		    <name>JoyRide Spinraiser</name>
+		    <description><![CDATA[Date: June 12, 2015
+Ridgefield, CT
+<img
+src="http://www2.michaeljfox.org/images/content/pagebuilder/JoyRide.jpg"/>
+<a
+href="http://www2.michaeljfox.org/site/TR?company_id=1027&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1027&fr_id=1440&pg=company
+</a>]]></description>
+		    <Camera>
+			    <longitude>-73.49673302511933</longitude>
+			    <latitude>41.28910311528274</latitude>
+			    <altitude>415.8255394143942</altitude>
+			    <heading>0.1068666786964337</heading>
+			    <tilt>29.99348577606879</tilt>
+			    <roll>-0.792212645484779</roll>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#msn_ylw-pushpin</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-73.49539892634429,41.29092703767892,0</coordinates>
+		    </Point>
+	    </Placemark>
+		<Placemark>
 			<name>Brandywine Valley Ride</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: June 14, 2015
@@ -111,55 +135,55 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1037&fr_id=1440&pg=company"
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Atlanta Area Ride</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 27, 2015
+		    <name>Atlanta Area Ride</name>
+		    <visibility>0</visibility>
+		    <description><![CDATA[Date: June 27, 2015
 Atlanta, GA
 <img
 src="http://www2.michaeljfox.org/images/content/pagebuilder/Atlanta.jpg"/>
 <a
-href="http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1040&fr_id=1440&pg=company
+href="http://www2.michaeljfox.org/site/TR/Athletic/TeamFox?team_id=13290&pg=team&fr_id=1440">http://www2.michaeljfox.org/site/TR/Athletic/TeamFox?team_id=13290&pg=team&fr_id=1440
 </a>]]></description>
-			<Camera>
-				<longitude>-84.14148507075268</longitude>
-				<latitude>33.81100690409741</latitude>
-				<altitude>717.2240852306355</altitude>
-				<heading>15.02643266891388</heading>
-				<tilt>23.36927680828307</tilt>
-				<roll>-0.65028006472375</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-84.14189284523422,33.81348218140177,0</coordinates>
-			</Point>
-		</Placemark>
+		    <LookAt>
+			    <longitude>-84.35683140234491</longitude>
+			    <latitude>34.03557508537875</latitude>
+			    <altitude>0</altitude>
+			    <heading>0.2821558476039313</heading>
+			    <tilt>32.89342309280617</tilt>
+			    <range>2626.268965750427</range>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </LookAt>
+		    <styleUrl>#msn_ylw-pushpin0</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-84.36491609956754,34.03807281140834,0</coordinates>
+		    </Point>
+	    </Placemark>
 		<Placemark>
 			<name>Lake Michigan Shoreline Ride</name>
 			<visibility>0</visibility>
 			<description><![CDATA[Date: July 5, 2015
-Chicago, IL
+Evanston, IL
 <img
 src="http://www2.michaeljfox.org/images/content/pagebuilder/CHI.jpg"/>
 <a
 href="http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1046&fr_id=1440&pg=company
 </a>]]></description>
 			<Camera>
-				<longitude>-87.61732278455477</longitude>
-				<latitude>41.87294237792102</latitude>
-				<altitude>1279.553676462308</altitude>
-				<heading>13.32153173121933</heading>
-				<tilt>16.4260911840897</tilt>
-				<roll>-0.9163421645409134</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-87.61975368205047,41.87579748354377,0</coordinates>
-			</Point>
-		</Placemark>
+			    <longitude>-87.68035693174535</longitude>
+			    <latitude>42.0429395587685</latitude>
+			    <altitude>668.5189854499796</altitude>
+			    <heading>13.19038606611921</heading>
+			    <tilt>15.00355905847653</tilt>
+			    <roll>-1.017434560779659</roll>
+			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#msn_ylw-pushpin0</styleUrl>
+		    <Point>
+			    <gx:drawOrder>1</gx:drawOrder>
+			    <coordinates>-87.68192380138797,42.04542656044196,0</coordinates>
+		    </Point>
+	    </Placemark>
 		<Placemark>
 			<name>Yellowstone National Park Ride</name>
 			<visibility>0</visibility>
