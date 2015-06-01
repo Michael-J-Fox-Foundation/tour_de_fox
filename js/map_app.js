@@ -86,11 +86,6 @@ var layerCelebrate = omnivore.kml(celebrationMarkers.kmlUrl)
 
             var markerDate;
             var markerUrl;
-            if (markerDescArray.length == 8) {
-                markerDescArray.splice(2,1);
-                markerDescArray.splice(3,1);
-                markerDescArray.splice(4,1);
-            }
             if (markerDescArray.length == 4) {
                 markerDate = markerDescArray[0];
                 markerUrl = markerDescArray[1] + " " + markerDescArray[2] + " " + markerDescArray[3];
