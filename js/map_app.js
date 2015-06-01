@@ -86,7 +86,8 @@ var layerCelebrate = omnivore.kml(celebrationMarkers.kmlUrl)
 
             var markerDate;
             var markerUrl;
-            
+
+            // removed logic for broken kml files
             if (markerDescArray.length == 4) {
                 markerDate = markerDescArray[0];
                 markerUrl = markerDescArray[1] + " " + markerDescArray[2] + " " + markerDescArray[3];
