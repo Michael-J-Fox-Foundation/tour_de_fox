@@ -388,23 +388,23 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1052&fr_id=1440&pg=company"
 		</Placemark>
 		<Placemark>
 		    <name>Jackson, WY</name>
-		    <description><![CDATA[Date: July 20, 2015
+		    <description><![CDATA[Date: July 8, 2015
 <a
-href="http://www2.michaeljfox.org/site/Donation2?df_id=6200&6200.donation=landing">http://www2.michaeljfox.org/site/Donation2?df_id=6200&6200.donation=landing
+href="https://secure3.convio.net/mjff/site/Donation2;jsessionid=3579D9E59C673B56155D874C919849C2.app359a?df_id=6200&6200.donation=landing">https://secure3.convio.net/mjff/site/Donation2;jsessionid=3579D9E59C673B56155D874C919849C2.app359a?df_id=6200&6200.donation=landing
 </a>]]></description>
-		    <LookAt>
-			    <longitude>-110.7425562789907</longitude>
-			    <latitude>43.56952787769774</latitude>
-			    <altitude>0</altitude>
-			    <heading>-10.3366733549151</heading>
-			    <tilt>10.03149445390137</tilt>
-			    <range>2793.880956672724</range>
-			    <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		    </LookAt>
-		    <styleUrl>#msn_ylw-pushpin000</styleUrl>
+		    <Camera>
+			    <longitude>-110.736272878549</longitude>
+			    <latitude>43.56968061898435</latitude>
+			    <altitude>1496.721330491517</altitude>
+			    <heading>-6.744316665024604</heading>
+			    <tilt>9.731711522742307</tilt>
+			    <roll>-2.319199710024461</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		    </Camera>
+		    <styleUrl>#msn_ylw-pushpin</styleUrl>
 		    <Point>
 			    <gx:drawOrder>1</gx:drawOrder>
-			    <coordinates>-110.7408897415043,43.5742975605071,0</coordinates>
+			    <coordinates>-110.7406867697539,43.57410122013895,0</coordinates>
 		    </Point>
 	    </Placemark>
 		<Placemark>
@@ -603,28 +603,6 @@ href="http://www2.michaeljfox.org/site/TR?company_id=1010&fr_id=1440&pg=company"
 			    <coordinates>-123.1120280238618,49.28468843676801,0</coordinates>
 		    </Point>
 	    </Placemark>
-	    <Placemark>
-			<name>New York, NY</name>
-			<visibility>0</visibility>
-			<description><![CDATA[Date: June 2, 2015
-<a
-href="http://www2.michaeljfox.org/site/TR?company_id=1070&fr_id=1440&pg=company">http://www2.michaeljfox.org/site/TR?company_id=1070&fr_id=1440&pg=company
-</a>]]></description>
-			<LookAt>
-				<longitude>-74.01460308019522</longitude>
-				<latitude>40.72575493745089</latitude>
-				<altitude>0</altitude>
-				<heading>14.16037961956963</heading>
-				<tilt>4.561518506408298</tilt>
-				<range>8741.568356320398</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-74.00635408310598,40.72021613088143,0</coordinates>
-			</Point>
-		</Placemark>
 	</Folder>
 </Document>
 </kml>
