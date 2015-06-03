@@ -1,0 +1,35 @@
+<style type="text/css"><!--
+.input-label survey-question-label{
+margin-bottom: 10px;
+}
+legend{
+margin-bottom: 12px;
+}
+
+div#registration_options_page li.input-container label {
+font-size:1em;
+}
+--></style>
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function(){
+  jQuery(".survey-question-container:eq(3)").hide();
+  jQuery(".survey-question-container:eq(4)").hide();
+  jQuery(".survey-question-container:eq(5)").hide();
+
+  jQuery("li input[type='checkbox']").parent().css({"float":"left", "width":"225px"});
+  jQuery("label[for=3953_3020_3_4382_5], label[for=3953_3020_3_4382_4]").css("font-size","0.84em");
+
+  jQuery('#3953_3020_3_4381_1').click(function(){
+    jQuery(".survey-question-container:eq(3)").show();
+    jQuery(".survey-question-container:eq(4)").show();
+    jQuery(".survey-question-container:eq(5)").hide();
+  });
+
+  jQuery('#3953_3020_3_4381_2').click(function(){       
+    jQuery(".survey-question-container:eq(3)").hide();
+    jQuery(".survey-question-container:eq(4)").hide();
+    jQuery(".survey-question-container:eq(5)").show();
+  });
+  jQuery("#team_find_campaign_banner_container").replaceWith("Register now");
+});
+// ]]></script>
