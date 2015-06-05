@@ -1,14 +1,16 @@
-// need to add header code to pageWrapper head and include ref to this file in head tag
-// <!-- adobe analytics header code -->
-// <script src="//assets.adobedtm.com/466cca7e5ee48072b5662b8693112d191c37175a/satelliteLib-c1dd521ab71c7aab5b0c64127b37c5d938554cfa-staging.js"></script>
-
-// also need to add to footer
-// <!-- adobe analytics footer code -->
-// <script type="text/javascript">_satellite.pageBottom();</script>
-
 function getUrlVar(key){
   var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
   return result && unescape(result[1]) || "";
+}
+
+function formStart() {
+  digitalData.form = digitalData.form || {};
+  digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
+  digitalData.event.push({
+    eventInfo: {
+      eventAction: "formStart"
+    }
+  });
 }
 
 if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
@@ -263,12 +265,22 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         site:"tdf tr"
       } 
     },
-    event:[{
-      eventInfo:{
+    event:[
+      { eventInfo:{
         eventAction:"pageView"
-      } 
-    }]
+      } },
+      { eventInfo:{
+        eventAction:"formView"
+      } },
+    ]
   }
+  jQuery("input").bind("focus.tdfStartRegistration", function() {
+    formStart();
+    jQuery("input").unbind("focus.tdfStartRegistration");
+  });
+  jQuery(".manageable-editor a").click(function() {
+    formStart();
+  });
 } else if (getUrlVar('pg') === 'ptype') {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -286,12 +298,26 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         site:"tdf tr"
       } 
     },
-    event:[{
-      eventInfo:{
+    event:[
+      { eventInfo:{
         eventAction:"pageView"
-      } 
-    }]
+      } },
+      { eventInfo:{
+        eventAction:"formView"
+      } },
+    ]
   }
+  jQuery("#next_step").click(function() {
+    var fr_goal = jQuery("#fr_goal").val().replace('$', '');
+    var fr_gift = jQuery("#fr_gift").val().replace('$', '');
+    digitalData.form = digitalData.form || {};
+    digitalData.form.settings = "registration_fee:25|tf_goal_amount:" + fr_goal + "|donation_amt:" + fr_gift;
+    digitalData.event.push({
+      eventInfo: {
+        eventAction: "formInteraction"
+      }
+    });
+  });
 } else if (getUrlVar('pg') === 'reg') {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -309,11 +335,40 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         site:"tdf tr"
       } 
     },
-    event:[{
-      eventInfo:{
+    event:[
+      { eventInfo:{
         eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formView"
+      } },
+    ]
+  }
+} else if ( (getUrlVar('pg') === 'waiver') || (getUrlVar('pg') === 'regsummary') || (getUrlVar('pg') === 'paymentForm') ) {
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>registration>" + getUrlVar('fr_id') + ">" + getUrlVar('pg')
+      },
+      category:{
+        primaryCategory: "registration",
+        subCategory1: getUrlVar('fr_id'),
+        subCategory2: getUrlVar('pg'),
+        subCategory3: "n/a"
+      },
+      attributes:{
+        site:"tdf tr"
       } 
-    }]
+    },
+    event:[
+      { eventInfo:{
+        eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formView"
+      } },
+    ]
   }
 } else if (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) {
   var digitalData = digitalData || {}; 
