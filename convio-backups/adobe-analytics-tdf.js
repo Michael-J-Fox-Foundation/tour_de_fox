@@ -274,12 +274,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } },
     ]
   }
-  jQuery("input").bind("focus.tdfStartRegistration", function() {
-    formStart();
-    jQuery("input").unbind("focus.tdfStartRegistration");
-  });
-  jQuery(".manageable-editor a").click(function() {
-    formStart();
+  jQuery(document).ready(function() {
+    jQuery("input").bind("focus.tdfStartRegistration", function() {
+      formStart();
+      jQuery("input").unbind("focus.tdfStartRegistration");
+    });
+    jQuery(".manageable-editor a").click(function() {
+      formStart();
+    });
   });
 } else if (getUrlVar('pg') === 'ptype') {
   var digitalData = digitalData || {}; 
@@ -307,15 +309,17 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } },
     ]
   }
-  jQuery("#next_step").click(function() {
-    var fr_goal = jQuery("#fr_goal").val().replace('$', '');
-    var fr_gift = jQuery("#fr_gift").val().replace('$', '');
-    digitalData.form = digitalData.form || {};
-    digitalData.form.settings = "registration_fee:25|tf_goal_amount:" + fr_goal + "|donation_amt:" + fr_gift;
-    digitalData.event.push({
-      eventInfo: {
-        eventAction: "formInteraction"
-      }
+  jQuery(document).ready(function() {
+    jQuery("#next_step").click(function() {
+      var fr_goal = jQuery("#fr_goal").val().replace('$', '');
+      var fr_gift = jQuery("#fr_gift").val().replace('$', '');
+      digitalData.form = digitalData.form || {};
+      digitalData.form.settings = "registration_fee:25|tf_goal_amount:" + fr_goal + "|donation_amt:" + fr_gift;
+      digitalData.event.push({
+        eventInfo: {
+          eventAction: "formInteraction"
+        }
+      });
     });
   });
 } else if (getUrlVar('pg') === 'reg') {
