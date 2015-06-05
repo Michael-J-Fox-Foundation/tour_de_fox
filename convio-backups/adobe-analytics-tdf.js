@@ -320,11 +320,11 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   digitalData = {
     page:{
       pageInfo:{ 
-        pageName: "tdf tr>donation form>" + getUrlVar('4060.donation') + ">" + getUrlVar('FR_ID') + ">" + getUrlVar('PROXY_ID')
+        pageName: "tdf tr>donation form>" + getUrlVar(getUrlVar('df_id') +'.donation') + ">" + getUrlVar('FR_ID') + ">" + getUrlVar('PROXY_ID')
       },
       category:{
         primaryCategory: "donation form",
-        subCategory1: getUrlVar('4060.donation'),
+        subCategory1: getUrlVar(getUrlVar('df_id') +'.donation'),
         subCategory2: getUrlVar('FR_ID'),
         subCategory3: getUrlVar('PROXY_ID')
       },
@@ -332,11 +332,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         site:"tdf tr"
       } 
     },
-    event:[{
-      eventInfo:{
+    event:[
+      { eventInfo:{
         eventAction:"pageView"
-      } 
-    }]
+      } },
+      { eventInfo:{
+        eventAction:"formView"
+      } }
+    ]
   }
 } else if (getUrlVar('view') === 'Detail') {
   var digitalData = digitalData || {}; 
@@ -423,3 +426,22 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   }
 };
 
+jQuery(document).ready(function() {
+  // donation & form events
+  jQuery("#ProcessForm input").bind("focus.tdfDonationStart", function() {
+    digitalData.form = digitalData.form || {};
+    digitalData.donation = digitalData.donation || {};
+    digitalData.form.name = "donation>team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
+    digitalData.donation.form = "team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');      
+    digitalData.event.push(
+        { eventInfo: {
+            eventAction: "formStart"
+        } },
+        { eventInfo: {
+            eventAction: "donationStart"
+        } }
+    );
+    jQuery("#ProcessForm input").unbind("focus.tdfDonationStart");
+    setTimeout(_satellite.track( 'donation-start'), 500);
+  });
+});
