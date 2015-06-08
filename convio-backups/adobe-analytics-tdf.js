@@ -504,12 +504,22 @@ jQuery(document).ready(function() {
     setTimeout(_satellite.track( 'donation-start'), 500);
   });
 
+  // donation form.settings 
   if ( getUrlVar(getUrlVar('df_id') +'.donation') == 'form3' ) {
-    var amt = jQuery(".entry-label:contains('Amount:')").next().text().replace('$', '');;
-    var anon = jQuery(".entry-label:contains('Anonymous donation:')").next().text().toLowerCase();
-    var displayGift = jQuery(".entry-label:contains('Show Gift Amount to Public:')").next().text().toLowerCase();
+    if (jQuery(".entry-label:contains('Level:')").length) {
+      var custom = "custom";
+    } else {
+      var custom = "preset";
+    };
+    var amt = jQuery(".entry-label:contains('Amount:')").next().text().trim().replace('$', '');
+    if (jQuery(".entry-label:contains('Anonymous donation:')").length) {
+      var anon = jQuery(".entry-label:contains('Anonymous donation:')").next().text().trim().toLowerCase();
+    } else {
+      var anon = "no"
+    };
+    var displayGift = jQuery(".entry-label:contains('Show Gift Amount to Public:')").next().text().trim().toLowerCase();
     digitalData.form = digitalData.form || {};
-    digitalData.form.settings = "amt:" + amt + "|anon:" + anon + "|display_gift:" + displayGift;
+    digitalData.form.settings = "amt:" + custom + "_" + amt + "|anon:" + anon + "|display_gift:" + displayGift;
     digitalData.event.push({
       eventInfo: {
         eventAction: "formInteraction"
