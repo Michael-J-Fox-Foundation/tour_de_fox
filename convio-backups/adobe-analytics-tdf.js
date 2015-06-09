@@ -380,7 +380,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
   }
   digitalData.form = digitalData.form || {};
   digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
-} else if (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) {
+} else if ( (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) && (getUrlVar(getUrlVar('df_id') +'.donation') == "form1") ) {
   var digitalData = digitalData || {}; 
   digitalData = {
     page:{
@@ -406,10 +406,49 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } }
     ]
   }
-  digitalData.form = digitalData.form || {};
-  digitalData.donation = digitalData.donation || {};
-  digitalData.form.name = "donation>team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
-  digitalData.donation.form = "team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
+  jQuery(document).ready(function() {
+    digitalData.form = digitalData.form || {};
+    digitalData.donation = digitalData.donation || {};
+    digitalData.form.name = "donation>team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
+    digitalData.donation.form = "team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
+
+    // donation & form events
+    jQuery("#ProcessForm input").bind("focus.tdfDonationStart", function() {      
+      digitalData.event.push(
+        { eventInfo: {
+            eventAction: "formStart"
+        } },
+        { eventInfo: {
+            eventAction: "donationStart"
+        } }
+      );
+      jQuery("#ProcessForm input").unbind("focus.tdfDonationStart");
+      setTimeout(_satellite.track( 'donation-start'), 500);
+    });
+  });
+} else if ( (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) ) {
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>donation form>" + getUrlVar(getUrlVar('df_id') +'.donation') + ">" + getUrlVar('FR_ID') + ">" + getUrlVar('PROXY_ID')
+      },
+      category:{
+        primaryCategory: "donation form",
+        subCategory1: getUrlVar(getUrlVar('df_id') +'.donation'),
+        subCategory2: getUrlVar('FR_ID'),
+        subCategory3: getUrlVar('PROXY_ID')
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[
+      { eventInfo:{
+        eventAction:"pageView"
+      } }
+    ]
+  }
 } else if (getUrlVar('view') === 'Detail') {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -496,19 +535,6 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
 };
 
 jQuery(document).ready(function() {
-  // donation & form events
-  jQuery("#ProcessForm input").bind("focus.tdfDonationStart", function() {      
-    digitalData.event.push(
-      { eventInfo: {
-          eventAction: "formStart"
-      } },
-      { eventInfo: {
-          eventAction: "donationStart"
-      } }
-    );
-    jQuery("#ProcessForm input").unbind("focus.tdfDonationStart");
-    setTimeout(_satellite.track( 'donation-start'), 500);
-  });
 
   // donation form.settings 
   if ( getUrlVar(getUrlVar('df_id') +'.donation') == 'form3' ) {
