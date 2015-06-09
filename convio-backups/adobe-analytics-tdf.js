@@ -4,8 +4,6 @@ function getUrlVar(key){
 }
 
 function formStart() {
-  digitalData.form = digitalData.form || {};
-  digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
   digitalData.event.push({
     eventInfo: {
       eventAction: "formStart"
@@ -282,6 +280,8 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     jQuery(".manageable-editor a").click(function() {
       formStart();
     });
+    digitalData.form = digitalData.form || {};
+    digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
   });
 } else if (getUrlVar('pg') === 'ptype') {
   var digitalData = digitalData || {}; 
@@ -321,6 +321,8 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         }
       });
     });
+    digitalData.form = digitalData.form || {};
+    digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
   });
 } else if (getUrlVar('pg') === 'reg') {
   var digitalData = digitalData || {}; 
@@ -348,6 +350,8 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } },
     ]
   }
+  digitalData.form = digitalData.form || {};
+  digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
 } else if ( (getUrlVar('pg') === 'waiver') || (getUrlVar('pg') === 'regsummary') || (getUrlVar('pg') === 'paymentForm') ) {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -374,6 +378,8 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } },
     ]
   }
+  digitalData.form = digitalData.form || {};
+  digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
 } else if (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -400,6 +406,10 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } }
     ]
   }
+  digitalData.form = digitalData.form || {};
+  digitalData.donation = digitalData.donation || {};
+  digitalData.form.name = "donation>team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
+  digitalData.donation.form = "team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
 } else if (getUrlVar('view') === 'Detail') {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -487,18 +497,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
 
 jQuery(document).ready(function() {
   // donation & form events
-  jQuery("#ProcessForm input").bind("focus.tdfDonationStart", function() {
-    digitalData.form = digitalData.form || {};
-    digitalData.donation = digitalData.donation || {};
-    digitalData.form.name = "donation>team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
-    digitalData.donation.form = "team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');      
+  jQuery("#ProcessForm input").bind("focus.tdfDonationStart", function() {      
     digitalData.event.push(
-        { eventInfo: {
-            eventAction: "formStart"
-        } },
-        { eventInfo: {
-            eventAction: "donationStart"
-        } }
+      { eventInfo: {
+          eventAction: "formStart"
+      } },
+      { eventInfo: {
+          eventAction: "donationStart"
+      } }
     );
     jQuery("#ProcessForm input").unbind("focus.tdfDonationStart");
     setTimeout(_satellite.track( 'donation-start'), 500);
