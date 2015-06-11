@@ -4,11 +4,14 @@ function getUrlVar(key){
 }
 
 function formStart() {
-  digitalData.event.push({
-    eventInfo: {
+  digitalData.event.push(
+    { eventInfo: {
       eventAction: "formStart"
-    }
-  });
+    } },
+    { eventInfo: {
+      eventAction: "teamfoxregistrationstart"
+    } },
+  );
 }
 
 if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
@@ -266,12 +269,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
-      } },
-      { eventInfo:{
-        eventAction:"formView"
-      } },
+      } }
     ]
-  }  
+  }
   jQuery(document).ready(function() {
     jQuery("input").bind("focus.tdfStartRegistration", function() {
       formStart();
@@ -282,6 +282,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     });
     digitalData.form = digitalData.form || {};
     digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
+    if (typeof sessionStorage.getItem('formView') !== "string") { // var not set yet. 
+      digitalData.event.push({
+        eventInfo: {
+          eventAction: "formView"
+        }
+      });
+      sessionStorage.setItem('formView', 'reg page visited');
+    };
   });
 } else if (getUrlVar('pg') === 'tfind') {
   var digitalData = digitalData || {}; 
@@ -303,10 +311,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
-      } },
-      { eventInfo:{
-        eventAction:"formView"
-      } },
+      } }
     ]
   }
   jQuery(document).ready(function() {
@@ -319,6 +324,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     });
     digitalData.form = digitalData.form || {};
     digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
+    if (typeof sessionStorage.getItem('formView') !== "string") { // var not set yet. 
+      digitalData.event.push({
+        eventInfo: {
+          eventAction: "formView"
+        }
+      });
+      sessionStorage.setItem('formView', 'reg page visited');
+    };
   });
 } else if (getUrlVar('pg') === 'ptype') {
   var digitalData = digitalData || {}; 
@@ -340,10 +353,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
-      } },
-      { eventInfo:{
-        eventAction:"formView"
-      } },
+      } }
     ]
   }
   jQuery(document).ready(function() {
@@ -360,6 +370,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     });
     digitalData.form = digitalData.form || {};
     digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
+    if (typeof sessionStorage.getItem('formView') !== "string") { // var not set yet. 
+      digitalData.event.push({
+        eventInfo: {
+          eventAction: "formView"
+        }
+      });
+      sessionStorage.setItem('formView', 'reg page visited');
+    };
   });
 } else if (getUrlVar('pg') === 'reg') {
   var digitalData = digitalData || {}; 
@@ -381,14 +399,19 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
-      } },
-      { eventInfo:{
-        eventAction:"formView"
-      } },
+      } }
     ]
   }
   digitalData.form = digitalData.form || {};
   digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
+  if (typeof sessionStorage.getItem('formView') !== "string") { // var not set yet. 
+    digitalData.event.push({
+      eventInfo: {
+        eventAction: "formView"
+      }
+    });
+    sessionStorage.setItem('formView', 'reg page visited');
+  };
 } else if ( (getUrlVar('pg') === 'waiver') || (getUrlVar('pg') === 'regsummary') || (getUrlVar('pg') === 'paymentForm') ) {
   var digitalData = digitalData || {}; 
   digitalData = {
@@ -409,14 +432,19 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
-      } },
-      { eventInfo:{
-        eventAction:"formView"
-      } },
+      } }
     ]
   }
   digitalData.form = digitalData.form || {};
   digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
+  if (typeof sessionStorage.getItem('formView') !== "string") { // var not set yet. 
+    digitalData.event.push({
+      eventInfo: {
+        eventAction: "formView"
+      }
+    });
+    sessionStorage.setItem('formView', 'reg page visited');
+  };
 } else if ( (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) && (getUrlVar(getUrlVar('df_id') +'.donation') == "form1") ) {
   var digitalData = digitalData || {}; 
   digitalData = {
