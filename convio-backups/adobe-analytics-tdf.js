@@ -10,7 +10,7 @@ function formStart() {
     } },
     { eventInfo: {
       eventAction: "teamfoxregistrationstart"
-    } },
+    } }
   );
 }
 
