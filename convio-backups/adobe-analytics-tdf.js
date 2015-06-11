@@ -246,6 +246,43 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } 
     }]
   }
+} else if ( (getUrlVar("fr_tm_opt") === 'new') && (getUrlVar('pg') === 'tfind') ) {
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>registration>create a team"
+      },
+      category:{
+        primaryCategory:"registration",
+        subCategory1: "join a team",
+        subCategory2: "n/a",
+        subCategory3: "n/a" 
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[
+      { eventInfo:{
+        eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formView"
+      } },
+    ]
+  }  
+  jQuery(document).ready(function() {
+    jQuery("input").bind("focus.tdfStartRegistration", function() {
+      formStart();
+      jQuery("input").unbind("focus.tdfStartRegistration");
+    });
+    jQuery(".manageable-editor a").click(function() {
+      formStart();
+    });
+    digitalData.form = digitalData.form || {};
+    digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
+  });
 } else if (getUrlVar('pg') === 'tfind') {
   var digitalData = digitalData || {}; 
   digitalData = {
