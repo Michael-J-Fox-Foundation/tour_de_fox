@@ -1,0 +1,48 @@
+<!-- Conversion Pixel - TDF_Registration_AllConvertors - DO NOT MODIFY -->
+<script src="https://secure.adnxs.com/px?id=506682&amp;t=1" type="text/javascript"></script>
+<!-- Outbrain conversion pixel - TDF registration -->
+<script type="text/javascript">// <![CDATA[
+      var OB_ADV_ID=24368;
+      var scheme = (("https:" == document.location.protocol) ? "https://" : "http://");
+      var str = '<script src="'+scheme+'widgets.outbrain.com/obtp.js" type="text/javascript"><\/script>';
+      document.write(str);
+
+  digitalData.event.push(
+    { eventInfo: {
+      eventAction: "formComplete"
+    } },
+    { eventInfo: {
+      eventAction: "formInteraction"
+    } },
+    { eventInfo: {
+      eventAction: "teamfoxregistrationcomplete"
+    } }
+  );
+
+  setTimeout(_satellite.track('form-complete'), 500);
+
+
+	jQuery(document).ready(function() {
+	jQuery('#title_container').text('Thank you for Joining Tour de Fox!');
+        jQuery('#thank_you_reg_msg').text('You are officially registered for Tour de Fox!');
+        jQuery('#part_center_link_title').html("Whether you are joining an existing team, captaining a new one or taking part as an individual, we are grateful for your support and can't wait to see you on the trail. Please visit the Tour de Fox Participation Center to customize your fundraising page to share your journey with friends and family and start garnering their support.<p>&nbsp;</p>");
+        jQuery('#fair_market_container').hide();
+        jQuery('#tracking_code_label').text('Confirmation Code:');
+        jQuery('.part-type-label').text('Registration Fee:');
+        jQuery('.part-type-name').hide();
+        jQuery('.additional-gift-label').text('Additional gift:');
+        jQuery('.total-label').text('Total:');
+        jQuery('#part_ctr_container_step').hide();
+        jQuery('#registration_summary_header').addClass('pad20');
+        jQuery('#transaction_summary_header').addClass('pad20');
+	});
+
+// ]]></script>
+  <style type="text/css">
+    .pad20{
+   padding-top: 20px;
+  }
+    .pad15bot{
+   padding-bottom: 15px;
+  }
+  </style>

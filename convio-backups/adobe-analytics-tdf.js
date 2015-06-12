@@ -574,6 +574,29 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     digitalData.page.pageInfo.pageName = "tdf tr>event>" + stateZip;
     digitalData.page.category.subCategory1 = stateZip;
   });
+} else if (getUrlVar('pg') === 'rthanks') {
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>registration>" + getUrlVar('fr_id') + ">" + getUrlVar('pg')
+      },
+      category:{
+        primaryCategory: "registration",
+        subCategory1: getUrlVar('fr_id'),
+        subCategory2: getUrlVar('pg'),
+        subCategory3: "n/a"
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[
+      { eventInfo:{
+        eventAction:"pageView"
+      } }
+    ]
+  }
 } else {
   var digitalData = digitalData || {}; 
   digitalData = {
