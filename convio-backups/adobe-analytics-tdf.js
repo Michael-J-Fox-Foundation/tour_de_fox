@@ -220,11 +220,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         site:"tdf tr"
       } 
     },
-    event:[{
-      eventInfo:{
+    event:[
+      { eventInfo:{
         eventAction:"pageView"
-      } 
-    }]
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
+      } }
+    ]
   }
 } else if (getUrlVar('pg') === 'utype') {
   var digitalData = digitalData || {}; 
@@ -243,11 +246,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         site:"tdf tr"
       } 
     },
-    event:[{
-      eventInfo:{
+    event:[
+      { eventInfo:{
         eventAction:"pageView"
-      } 
-    }]
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
+      } }
+    ]
   }
 } else if ( (getUrlVar("fr_tm_opt") === 'new') && (getUrlVar('pg') === 'tfind') ) {
   var digitalData = digitalData || {}; 
@@ -269,6 +275,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
       } }
     ]
   }
@@ -311,6 +320,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
       } }
     ]
   }
@@ -353,6 +365,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
       } }
     ]
   }
@@ -399,6 +414,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
       } }
     ]
   }
@@ -432,6 +450,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
       } }
     ]
   }
@@ -468,6 +489,12 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } },
       { eventInfo:{
         eventAction:"formView"
+      } },
+      { eventInfo:{
+        eventAction:"donationStart"
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
       } }
     ]
   }
@@ -479,16 +506,13 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     digitalData.donation.oneTimeOrRecurring = "one-time";
     digitalData.donation.type = "team fox";
     // donation & form events
-    jQuery("#ProcessForm input").bind("focus.tdfDonationStart", function() {      
+    jQuery("#ProcessForm input, input[name='level_standardexpanded']").bind("focus.tdfDonationStart", function() {      
       digitalData.event.push(
         { eventInfo: {
             eventAction: "formStart"
-        } },
-        { eventInfo: {
-            eventAction: "donationStart"
         } }
       );
-      jQuery("#ProcessForm input").unbind("focus.tdfDonationStart");
+      jQuery("#ProcessForm input, input[name='level_standardexpanded']").unbind("focus.tdfDonationStart");
       setTimeout(_satellite.track( 'donation-start'), 500);
     });
   });
@@ -512,6 +536,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
       } }
     ]
   }
@@ -595,6 +622,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     event:[
       { eventInfo:{
         eventAction:"pageView"
+      } },
+      { eventInfo:{
+        eventAction:"formInteraction"
       } }
     ]
   }
