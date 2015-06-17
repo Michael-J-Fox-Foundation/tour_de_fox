@@ -476,7 +476,8 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     digitalData.donation = digitalData.donation || {};
     digitalData.form.name = "donation>team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
     digitalData.donation.form = "team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
-
+    digitalData.donation.oneTimeOrRecurring = "one-time";
+    digitalData.donation.type = "team fox";
     // donation & form events
     jQuery("#ProcessForm input").bind("focus.tdfDonationStart", function() {      
       digitalData.event.push(
