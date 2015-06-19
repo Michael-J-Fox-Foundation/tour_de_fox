@@ -507,14 +507,25 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     digitalData.donation.oneTimeOrRecurring = "one-time";
     digitalData.donation.type = "team fox";
     // donation & form events
-    jQuery("#ProcessForm input, input[name='level_standardexpanded']").bind("focus.tdfDonationStart", function() {      
-      digitalData.event.push(
-        { eventInfo: {
-            eventAction: "formStart"
-        } }
-      );
-      jQuery("#ProcessForm input, input[name='level_standardexpanded']").unbind("focus.tdfDonationStart");
-    });
+    if (typeof sessionStorage.getItem('formStarted') !== "string") { // var not set yet. 
+      jQuery("form#ProcessForm").on({
+        focus: function() {      
+          digitalData.event.push(
+            { eventInfo: {
+                eventAction: "formStart"
+            } }
+          );
+        },
+        click: function() {      
+          digitalData.event.push(
+            { eventInfo: {
+                eventAction: "formStart"
+            } }
+          );
+        },
+      }, "input");
+      sessionStorage.setItem('formStarted', 'donation started');
+    }
   });
 } else if ( (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) ) {
   var digitalData = digitalData || {}; 
