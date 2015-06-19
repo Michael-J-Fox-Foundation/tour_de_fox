@@ -499,6 +499,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     ]
   }
   jQuery(document).ready(function() {
+    setTimeout(_satellite.track( 'donation-start'), 500);
     digitalData.form = digitalData.form || {};
     digitalData.donation = digitalData.donation || {};
     digitalData.form.name = "donation>team fox>" + getUrlVar('df_id') + ">" + getUrlVar('fr_id');
@@ -513,7 +514,6 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         } }
       );
       jQuery("#ProcessForm input, input[name='level_standardexpanded']").unbind("focus.tdfDonationStart");
-      setTimeout(_satellite.track( 'donation-start'), 500);
     });
   });
 } else if ( (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) ) {
