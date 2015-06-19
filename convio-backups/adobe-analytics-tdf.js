@@ -507,7 +507,7 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     digitalData.donation.oneTimeOrRecurring = "one-time";
     digitalData.donation.type = "team fox";
     // donation & form events
-    jQuery("form#ProcessForm").on("focus.tdfDonationStart", function() {
+    jQuery("#ProcessForm input").on("click.tdfDonationStart", function() {
       if (typeof sessionStorage.getItem('formStarted') !== "string") { // var not set yet. 
         digitalData.event.push(
           { eventInfo: {
@@ -515,9 +515,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
           } }
         );
         sessionStorage.setItem('formStarted', 'donation started');
-        jQuery("form#ProcessForm").off("focus.tdfDonationStart");
+        jQuery("#ProcessForm input").off("click.tdfDonationStart");
       }
-    }, "input");
+    });
   });
 } else if ( (window.location.pathname.indexOf("/mjff/site/Donation2") === 0) ) {
   var digitalData = digitalData || {}; 
