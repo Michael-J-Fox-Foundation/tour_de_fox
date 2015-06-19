@@ -512,14 +512,14 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         focus: function() {      
           digitalData.event.push(
             { eventInfo: {
-                eventAction: "formStart"
+              eventAction: "formStart"
             } }
           );
         },
         click: function() {      
           digitalData.event.push(
             { eventInfo: {
-                eventAction: "formStart"
+              eventAction: "formStart"
             } }
           );
         },
