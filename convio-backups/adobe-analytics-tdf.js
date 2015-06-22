@@ -674,6 +674,8 @@ jQuery(document).ready(function() {
     var displayGift = jQuery(".entry-label:contains('Show Gift Amount to Public:')").next().text().trim().toLowerCase();
     digitalData.form = digitalData.form || {};
     digitalData.form.settings = "amt:" + custom + "_" + amt + "|anon:" + anon + "|display_gift:" + displayGift;
+    digitalData.donation = digitalData.donation || {};
+    digitalData.donation.formSettings = "amt:" + custom + "_" + amt + "|anon:" + anon + "|display_gift:" + displayGift;
     digitalData.event.push({
       eventInfo: {
         eventAction: "formInteraction"
