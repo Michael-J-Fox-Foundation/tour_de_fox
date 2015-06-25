@@ -326,6 +326,16 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } }
     ]
   }
+  digitalData.form = digitalData.form || {};
+  digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
+  if (typeof sessionStorage.getItem('formView') !== "string") { // var not set yet. 
+    digitalData.event.push({
+      eventInfo: {
+        eventAction: "formView"
+      }
+    });
+    sessionStorage.setItem('formView', 'reg page visited');
+  };
   jQuery(document).ready(function() {
     jQuery("input").bind("focus.tdfStartRegistration", function() {
       formStart();
@@ -334,16 +344,6 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
     jQuery(".manageable-editor a").click(function() {
       formStart();
     });
-    digitalData.form = digitalData.form || {};
-    digitalData.form.name = "team fox>registration>" + getUrlVar('fr_id');
-    if (typeof sessionStorage.getItem('formView') !== "string") { // var not set yet. 
-      digitalData.event.push({
-        eventInfo: {
-          eventAction: "formView"
-        }
-      });
-      sessionStorage.setItem('formView', 'reg page visited');
-    };
   });
 } else if (getUrlVar('pg') === 'ptype') {
   var digitalData = digitalData || {}; 
