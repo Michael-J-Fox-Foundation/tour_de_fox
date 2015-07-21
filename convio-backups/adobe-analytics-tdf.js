@@ -489,12 +489,6 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } },
       { eventInfo:{
         eventAction:"formView"
-      } },
-      { eventInfo:{
-        eventAction:"donationStart"
-      } },
-      { eventInfo:{
-        eventAction:"formInteraction"
       } }
     ]
   }
@@ -512,6 +506,9 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
         digitalData.event.push(
           { eventInfo: {
             eventAction: "formStart"
+          } },
+          { eventInfo:{
+            eventAction:"donationStart"
           } }
         );
         sessionStorage.setItem('formStarted', 'donation started');
