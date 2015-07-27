@@ -10,6 +10,16 @@ width: 95%;
 .header p.cstmTitle{
 color: #f77f00;
 }
+.thermometer .goal a {
+	background: no-repeat 0 0 #F77F00;
+	font-size: 15px;
+	width: 191px;
+	display: block;
+	margin: 20px auto;
+	clear: both;
+	color: #FFF;
+	text-transform: uppercase;
+}
 --></style>
 <h3><span style="font-size: 1.17em;">Want to join the Tour De Fox in Canada?</span></h3>
 <h2>Climb the Grouse Grind - 3,614 ft.</h2>
@@ -50,6 +60,7 @@ color: #f77f00;
 </div>
 <script type="text/javascript">
 	jQuery(document).ready(function() {
-		jQuery(".goal:first").append("<a href='http://mjffca.convio.net/site/Donation2?df_id=1520&1520.donation=form1' title='Donate in Canadian Dollars' style='background: no-repeat 0 0 #F77F00;font-size: 15px;width: 191px;display: block;margin: 20px auto;clear: both;color: #FFF;text-transform: uppercase;padding: 14px;'>donate in canadian dollars</a>");
+		jQuery(".goal:first a:first").text("donate in U.S. dollars").css('padding-top', '14px');
+		jQuery(".goal:first").append("<a href='http://mjffca.convio.net/site/Donation2?df_id=1520&1520.donation=form1' title='Donate in Canadian Dollars' style='padding: 14px 0;'>donate in canadian dollars</a>");
 	});
 </script>
