@@ -83,6 +83,29 @@ if ((getUrlVar('sid') === '1070') && (getUrlVar('pg') === 'informational')) {
       } 
     }]
   }
+} else if (getUrlVar('pg') === 'personal') {
+  var digitalData = digitalData || {}; 
+  digitalData = {
+    page:{
+      pageInfo:{ 
+        pageName: "tdf tr>personal fundraising page>" + getUrlVar('fr_id') + ">" + getUrlVar('px')
+      },
+      category:{
+        primaryCategory:"personal fundraising page",
+        subCategory1: getUrlVar('fr_id'),
+        subCategory2: getUrlVar('px'),
+        subCategory3: "n/a" 
+      },
+      attributes:{
+        site:"tdf tr"
+      } 
+    },
+    event:[{
+      eventInfo:{
+        eventAction:"pageView"
+      } 
+    }]
+  }
 } else if (getUrlVar('sid') === '1130') {
   var digitalData = digitalData || {}; 
   digitalData = {
