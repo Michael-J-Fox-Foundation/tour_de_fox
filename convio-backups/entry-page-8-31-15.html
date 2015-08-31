@@ -138,14 +138,14 @@ color: #f77f00;
 14,000 miles<br />
 $1,000,000</h1>
 </div>
-<div id="progHolder">
+<!-- <div id="progHolder">
 <div class="sam-total" style="display: none;"></div>
 <div class="wine-total" style="display: none;"></div>
 <div id="progBar">
-    <span class="progline">
-        <span class="end">&nbsp;</span>
-      </span>
-  </div>
+  <span class="progline">
+      <span class="end">&nbsp;</span>
+    </span>
+</div>
 <div class="CTA-row">
 <h2 class="col-third">$0</h2>
 <div class="prog-end">
@@ -154,26 +154,26 @@ $1,000,000</h1>
 </div>
 </div>
 <script type="text/javascript">// <![CDATA[
-    jQuery(document).ready(function() {
-        jQuery(".sam-total").load("http://www2.michaeljfox.org/site/TR?company_id=1090&fr_id=1440&pg=company .goal:first dd:last");
-        jQuery(".wine-total").load("http://www2.michaeljfox.org/site/TR?fr_id=1820&pg=entry .goal:first dd:last");
+    // jQuery(document).ready(function() {
+    //     jQuery(".sam-total").load("http://www2.michaeljfox.org/site/TR?company_id=1090&fr_id=1440&pg=company .goal:first dd:last");
+    //     jQuery(".wine-total").load("http://www2.michaeljfox.org/site/TR?fr_id=1820&pg=entry .goal:first dd:last");
         
-        var checkExist = setInterval(function() {
-            if ( (jQuery(".sam-total dd").length) && (jQuery(".wine-total dd").length) ) {
-                var samTotal = parseInt(jQuery(".sam-total dd").text().replace('$', '').replace(',', ''));
-                var wineTotal = parseInt(jQuery(".wine-total dd").text().replace('$', '').replace(',', ''));
+    //     var checkExist = setInterval(function() {
+    //         if ( (jQuery(".sam-total dd").length) && (jQuery(".wine-total dd").length) ) {
+    //             var samTotal = parseInt(jQuery(".sam-total dd").text().replace('$', '').replace(',', ''));
+    //             var wineTotal = parseInt(jQuery(".wine-total dd").text().replace('$', '').replace(',', ''));
 
-                var progress = samTotal + wineTotal;
+    //             var progress = samTotal + wineTotal;
 
-                var progline = (progress / 1000000) * 100 
-                jQuery(".progline").css("width", progline+"%");
+    //             var progline = (progress / 1000000) * 100 
+    //             jQuery(".progline").css("width", progline+"%");
 
-                clearInterval(checkExist);
-            }
-        }, 100);
+    //             clearInterval(checkExist);
+    //         }
+    //     }, 100);
 
-    });
-// ]]></script>
+    // });
+// ]]></script> -->
 <h1>about tour de fox</h1>
 <a class="mjffButton" style="margin-right: 20px; float: right; background: none repeat scroll 0% 0% #9bba43;" href="TR?company_id=1090&amp;fr_id=1440&amp;pg=company">donate to sam</a>
 <div style="width: 70%;">
